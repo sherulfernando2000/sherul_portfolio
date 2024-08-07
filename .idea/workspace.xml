@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="done until hero section" />
+    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="done project sectioning in works">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +52,8 @@
       <updated>1722785060381</updated>
       <workItem from="1722785061504" duration="3446000" />
       <workItem from="1722823664434" duration="11471000" />
-      <workItem from="1722866884288" duration="5815000" />
+      <workItem from="1722866884288" duration="6963000" />
+      <workItem from="1722996800620" duration="4170000" />
     </task>
     <task id="LOCAL-00001" summary="done until hero section">
       <created>1722942224940</created>
@@ -58,7 +62,28 @@
       <option name="project" value="LOCAL" />
       <updated>1722942224940</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="done until aboutme section">
+      <created>1722942461892</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722942461892</updated>
+    </task>
+    <task id="LOCAL-00003" summary="done service sectioning">
+      <created>1722942536719</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722942536719</updated>
+    </task>
+    <task id="LOCAL-00004" summary="done project sectioning in works">
+      <created>1722942590170</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722942590170</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -66,6 +91,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="done until hero section" />
-    <option name="LAST_COMMIT_MESSAGE" value="done until hero section" />
+    <MESSAGE value="done until aboutme section" />
+    <MESSAGE value="done service sectioning" />
+    <MESSAGE value="done project sectioning in works" />
+    <option name="LAST_COMMIT_MESSAGE" value="done project sectioning in works" />
   </component>
 </project>
