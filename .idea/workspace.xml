@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="done project sectioning in works">
+    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="done assignment sectioning in works">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -53,7 +53,7 @@
       <workItem from="1722785061504" duration="3446000" />
       <workItem from="1722823664434" duration="11471000" />
       <workItem from="1722866884288" duration="6963000" />
-      <workItem from="1722996800620" duration="4170000" />
+      <workItem from="1722996800620" duration="5843000" />
     </task>
     <task id="LOCAL-00001" summary="done until hero section">
       <created>1722942224940</created>
@@ -83,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1722942590170</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="done assignment sectioning in works">
+      <created>1723001850097</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723001850097</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +101,7 @@
     <MESSAGE value="done until aboutme section" />
     <MESSAGE value="done service sectioning" />
     <MESSAGE value="done project sectioning in works" />
-    <option name="LAST_COMMIT_MESSAGE" value="done project sectioning in works" />
+    <MESSAGE value="done assignment sectioning in works" />
+    <option name="LAST_COMMIT_MESSAGE" value="done assignment sectioning in works" />
   </component>
 </project>
