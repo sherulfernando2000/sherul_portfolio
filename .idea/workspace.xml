@@ -4,7 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="done assignment sectioning in works">
+    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="done skill sectioning">
+      <change afterPath="$PROJECT_DIR$/assets/aboutMe_section/aboutme_photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/aboutMe_section/rajarata_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignment_section/assignment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fb_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gallery_section/gallery_1Image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gallery_section/gallery_2Image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gallery_section/gallery_3Image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gallery_section/gallery_4Image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img_27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/insta_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/linkedIn_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skill_section/skill_angularLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skill_section/skill_cssLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skill_section/skill_figmaLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skill_section/skill_githubLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skill_section/skill_htmlLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skill_section/skill_intelijLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skill_section/skill_javaLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skill_section/skill_jsLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skill_section/skill_nodeJSLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skill_section/skill_pythonLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skill_section/skill_sqlLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skill_section/skill_vscodeLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/twitter_icon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -42,6 +67,15 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio\assets\skill_section" />
+      <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio\assets\project_section" />
+      <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio\assets\gallery_section" />
+      <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio\assets\aboutMe_section" />
+      <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio\assets\hero_section" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,7 +87,10 @@
       <workItem from="1722785061504" duration="3446000" />
       <workItem from="1722823664434" duration="11471000" />
       <workItem from="1722866884288" duration="6963000" />
-      <workItem from="1722996800620" duration="5843000" />
+      <workItem from="1722996800620" duration="13395000" />
+      <workItem from="1723199076210" duration="1869000" />
+      <workItem from="1723259860296" duration="5138000" />
+      <workItem from="1723369602401" duration="3477000" />
     </task>
     <task id="LOCAL-00001" summary="done until hero section">
       <created>1722942224940</created>
@@ -90,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723001850097</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="done skill sectioning">
+      <created>1723010153220</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1723010153220</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +146,7 @@
     <MESSAGE value="done service sectioning" />
     <MESSAGE value="done project sectioning in works" />
     <MESSAGE value="done assignment sectioning in works" />
-    <option name="LAST_COMMIT_MESSAGE" value="done assignment sectioning in works" />
+    <MESSAGE value="done skill sectioning" />
+    <option name="LAST_COMMIT_MESSAGE" value="done skill sectioning" />
   </component>
 </project>
