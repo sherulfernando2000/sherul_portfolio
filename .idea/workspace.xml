@@ -4,32 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="done skill sectioning">
-      <change afterPath="$PROJECT_DIR$/assets/aboutMe_section/aboutme_photo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aboutMe_section/rajarata_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/assignment_section/assignment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fb_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/gallery_section/gallery_1Image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/gallery_section/gallery_2Image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/gallery_section/gallery_3Image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/gallery_section/gallery_4Image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img_27.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/insta_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/linkedIn_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skill_section/skill_angularLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skill_section/skill_cssLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skill_section/skill_figmaLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skill_section/skill_githubLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skill_section/skill_htmlLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skill_section/skill_intelijLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skill_section/skill_javaLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skill_section/skill_jsLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skill_section/skill_nodeJSLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skill_section/skill_pythonLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skill_section/skill_sqlLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skill_section/skill_vscodeLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/twitter_icon.png" afterDir="false" />
+    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="done adding picture till gallery section">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -90,7 +65,7 @@
       <workItem from="1722996800620" duration="13395000" />
       <workItem from="1723199076210" duration="1869000" />
       <workItem from="1723259860296" duration="5138000" />
-      <workItem from="1723369602401" duration="3477000" />
+      <workItem from="1723369602401" duration="5084000" />
     </task>
     <task id="LOCAL-00001" summary="done until hero section">
       <created>1722942224940</created>
@@ -134,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723010153220</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="done adding picture till gallery section">
+      <created>1723443980344</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1723443980344</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +129,7 @@
     <MESSAGE value="done project sectioning in works" />
     <MESSAGE value="done assignment sectioning in works" />
     <MESSAGE value="done skill sectioning" />
-    <option name="LAST_COMMIT_MESSAGE" value="done skill sectioning" />
+    <MESSAGE value="done adding picture till gallery section" />
+    <option name="LAST_COMMIT_MESSAGE" value="done adding picture till gallery section" />
   </component>
 </project>
