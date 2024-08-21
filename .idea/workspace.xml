@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="footer section done">
+    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="about me section all photo added">
+      <change afterPath="$PROJECT_DIR$/assets/service_section/software.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/service_section/ui_ux.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/service_section/web.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +70,7 @@
       <workItem from="1723259860296" duration="5138000" />
       <workItem from="1723369602401" duration="8389000" />
       <workItem from="1723608196006" duration="6530000" />
+      <workItem from="1724209943069" duration="737000" />
     </task>
     <task id="LOCAL-00001" summary="done until hero section">
       <created>1722942224940</created>
@@ -151,7 +156,21 @@
       <option name="project" value="LOCAL" />
       <updated>1723622576329</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="about me section photo added">
+      <created>1724210227390</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1724210227390</updated>
+    </task>
+    <task id="LOCAL-00014" summary="about me section all photo added">
+      <created>1724210308323</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1724210308323</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +189,9 @@
     <MESSAGE value="done contact me right side" />
     <MESSAGE value="done navigation to each main section" />
     <MESSAGE value="footer section done" />
-    <option name="LAST_COMMIT_MESSAGE" value="footer section done" />
+    <MESSAGE value="hero section photo added" />
+    <MESSAGE value="about me section photo added" />
+    <MESSAGE value="about me section all photo added" />
+    <option name="LAST_COMMIT_MESSAGE" value="about me section all photo added" />
   </component>
 </project>
