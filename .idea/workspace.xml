@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="about me section all photo added">
-      <change afterPath="$PROJECT_DIR$/assets/service_section/software.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/service_section/ui_ux.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/service_section/web.png" afterDir="false" />
+    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="starting to add styles">
+      <change afterPath="$PROJECT_DIR$/assets/Header_section/SD initial logo for free.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Header_section/SD_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Header_section/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/normalize.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -32,26 +33,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Sherul Fernando/Documents/GDSE/sherul_portfolio",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio" />
+      <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio\assets\Header_section" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio\assets\Header_section" />
       <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio\assets\skill_section" />
       <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio\assets\project_section" />
       <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio\assets\gallery_section" />
       <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio\assets\aboutMe_section" />
-      <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio\assets\hero_section" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -70,7 +76,10 @@
       <workItem from="1723259860296" duration="5138000" />
       <workItem from="1723369602401" duration="8389000" />
       <workItem from="1723608196006" duration="6530000" />
-      <workItem from="1724209943069" duration="737000" />
+      <workItem from="1724209943069" duration="1459000" />
+      <workItem from="1724726396909" duration="633000" />
+      <workItem from="1725242870562" duration="3308000" />
+      <workItem from="1725365512164" duration="3820000" />
     </task>
     <task id="LOCAL-00001" summary="done until hero section">
       <created>1722942224940</created>
@@ -170,7 +179,56 @@
       <option name="project" value="LOCAL" />
       <updated>1724210308323</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="service section web image  added">
+      <created>1724210711467</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1724210711468</updated>
+    </task>
+    <task id="LOCAL-00016" summary="service section software image  added">
+      <created>1724210776773</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1724210776773</updated>
+    </task>
+    <task id="LOCAL-00017" summary="service section ui image  added">
+      <created>1724210827560</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1724210827560</updated>
+    </task>
+    <task id="LOCAL-00018" summary="project section image  added">
+      <created>1724210879103</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1724210879103</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Assignment section image  added">
+      <created>1724210976231</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1724210976231</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Skills section image  added">
+      <created>1724211079223</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1724211079223</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Gallery section image  added">
+      <created>1724211114297</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1724211114297</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +250,14 @@
     <MESSAGE value="hero section photo added" />
     <MESSAGE value="about me section photo added" />
     <MESSAGE value="about me section all photo added" />
-    <option name="LAST_COMMIT_MESSAGE" value="about me section all photo added" />
+    <MESSAGE value="service section web image  added" />
+    <MESSAGE value="service section software image  added" />
+    <MESSAGE value="service section ui image  added" />
+    <MESSAGE value="project section image  added" />
+    <MESSAGE value="Assignment section image  added" />
+    <MESSAGE value="Skills section image  added" />
+    <MESSAGE value="Gallery section image  added" />
+    <MESSAGE value="starting to add styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="starting to add styles" />
   </component>
 </project>
