@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="starting to add styles">
-      <change afterPath="$PROJECT_DIR$/assets/Header_section/SD initial logo for free.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Header_section/SD_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Header_section/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/normalize.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="header section nav bar added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +72,7 @@
       <workItem from="1724209943069" duration="1459000" />
       <workItem from="1724726396909" duration="633000" />
       <workItem from="1725242870562" duration="3308000" />
-      <workItem from="1725365512164" duration="3820000" />
+      <workItem from="1725365512164" duration="4180000" />
     </task>
     <task id="LOCAL-00001" summary="done until hero section">
       <created>1722942224940</created>
@@ -228,7 +221,21 @@
       <option name="project" value="LOCAL" />
       <updated>1724211114297</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="logo in header added and normalize.css added">
+      <created>1725370072405</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1725370072405</updated>
+    </task>
+    <task id="LOCAL-00023" summary="header section nav bar added">
+      <created>1725370117481</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1725370117481</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,6 +265,8 @@
     <MESSAGE value="Skills section image  added" />
     <MESSAGE value="Gallery section image  added" />
     <MESSAGE value="starting to add styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="starting to add styles" />
+    <MESSAGE value="logo in header added and normalize.css added" />
+    <MESSAGE value="header section nav bar added" />
+    <option name="LAST_COMMIT_MESSAGE" value="header section nav bar added" />
   </component>
 </project>
