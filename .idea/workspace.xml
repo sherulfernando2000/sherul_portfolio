@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="header section content aligned to center and make space between navbar li">
+    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="removed navbar underlines in anchor tags">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +74,7 @@
       <workItem from="1724209943069" duration="1459000" />
       <workItem from="1724726396909" duration="633000" />
       <workItem from="1725242870562" duration="3308000" />
-      <workItem from="1725365512164" duration="4482000" />
+      <workItem from="1725365512164" duration="4825000" />
     </task>
     <task id="LOCAL-00001" summary="done until hero section">
       <created>1722942224940</created>
@@ -244,14 +244,20 @@
       <option name="project" value="LOCAL" />
       <updated>1725370236088</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="removed navbar underlines in anchor tags">
+      <created>1725370822607</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1725370822607</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="done until aboutme section" />
     <MESSAGE value="done service sectioning" />
     <MESSAGE value="done project sectioning in works" />
     <MESSAGE value="done assignment sectioning in works" />
@@ -276,6 +282,7 @@
     <MESSAGE value="logo in header added and normalize.css added" />
     <MESSAGE value="header section nav bar added" />
     <MESSAGE value="header section content aligned to center and make space between navbar li" />
-    <option name="LAST_COMMIT_MESSAGE" value="header section content aligned to center and make space between navbar li" />
+    <MESSAGE value="removed navbar underlines in anchor tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed navbar underlines in anchor tags" />
   </component>
 </project>
