@@ -12,6 +12,7 @@
     <style>
         body{
             background-color: black;
+            color: white;
         }
 
         .header{
@@ -38,7 +39,7 @@
 
         .header>nav>ul>li{
             display: inline;
-            margin: 0 15px;
+            margin: 0 20px;
         }
 
         .header>nav>ul>li>a{
@@ -47,16 +48,50 @@
             text-decoration: none;
         }
 
-        header>div{
-            background: url("assets/Header_section/SD_white.png") ;
-            border: 2px solid black;
+        header>.logo{
+            background: url("assets/Header_section/SD_white.png");
+            background-size: cover;
+            /*border: 2px solid black;*/
             width: 69px;
             height: 64px;
             position: absolute;
+            left: 75px;
         }
 
+        header>.logo>img{
+            width: 65px;
+            height: 60px;
+        }
 
+        header>nav>ul>li>a:hover{
+            /*background-color: black;*/
+            color: deepskyblue;
+            /*border-radius: 20px ;*/
+            /*padding: 5px;*/
+        }
 
+        header>nav>ul>li>a:active {
+            color: red;
+
+        }
+
+        .hero{
+            position: relative;
+            top: 75px;
+        }
+
+        .hero>.heroPic{
+            background: url("assets/hero_section/hero.png");
+            background-size: cover;
+            border: 2px solid white;
+            border-radius: 100%;
+            width: 530px;
+            height: 550px;
+            overflow: hidden;
+        }
+
+        
+        
 
 
     </style>
@@ -72,6 +107,7 @@
         <!--nav section-->
         <nav class="navlist">
             <ul>
+
                 <li> <a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li> <a href="#services">Services</a></li>
@@ -80,22 +116,14 @@
                 <li> <a href="#contact">Contact</a> </li>
 
             </ul>
-
-
-
-
-
-
-
-
-
         </nav>
     </header>
 
      <!--hero section-->
-        <main>
+        <main class="hero" >
             <!--Hero photo-->
-            <img src="assets/hero_section/hero_photo.png" title="my photo" alt="my photo" width="250">
+            <div class="heroPic"></div>
+<!--            <img src="assets/hero_section/aboutme.png" title="my photo" alt="my photo" width="250">-->
             <!--Social media icon-->
             <div>
                 <a href=""><i class="fa-brands fa-facebook" style=""></i></a>
