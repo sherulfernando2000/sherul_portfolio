@@ -103,3 +103,9 @@ header>nav>ul>li>a:active {
     margin: 0 10px;
     flex-wrap: wrap;
 }
+
+.box-main {
+    flex: 1;
+    /*padding: 20px;*/
+    /*border: #00D3FF 2px solid;*/
+}
