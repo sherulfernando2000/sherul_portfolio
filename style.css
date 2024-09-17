@@ -84,6 +84,9 @@ header>nav>ul>li>a:active {
 }
 
 .hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
