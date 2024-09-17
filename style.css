@@ -232,3 +232,13 @@ header>nav>ul>li>a:active {
     }
 
 }
+
+@media (max-width: 768px) {
+    .box-container-main {
+        flex-direction: column-reverse;
+    }
+
+    .welcomeTitles{
+        text-align: center;
+    }
+}
