@@ -113,3 +113,8 @@ header>nav>ul>li>a:active {
 .box-container-main>.box-main:nth-child(1){
     /*padding-left: 30px;*/
 }
+
+/* Styling for the welcome titles */
+.welcomeTitles h2 {
+
+}
