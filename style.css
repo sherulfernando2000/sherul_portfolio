@@ -109,3 +109,7 @@ header>nav>ul>li>a:active {
     /*padding: 20px;*/
     /*border: #00D3FF 2px solid;*/
 }
+
+.box-container-main>.box-main:nth-child(1){
+    /*padding-left: 30px;*/
+}
