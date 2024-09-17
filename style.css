@@ -166,3 +166,15 @@ header>nav>ul>li>a:active {
 .socialIcon .fa-brands:hover{
     color: var(--main-color);
 }
+
+.button{
+    background: rgb(0,211,255);
+    background: linear-gradient(81deg, rgba(0,211,255,1) 0%, rgba(0,127,153,1) 14%);
+    color: var(--text-color);
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-family: "Urbanist";
+    padding: 8px 35px;
+    cursor: pointer;
+    transition: background-color 0.3s ease ;
+}
