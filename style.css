@@ -212,3 +212,13 @@ header>nav>ul>li>a:active {
     background: rgb(0,83,101);
     background: linear-gradient(210deg, rgba(0,83,101,1) 4%, rgba(0,0,0,1) 70%);
 }
+
+.heroPic img{
+    /*max-width: 400px;
+    max-height: 480px;*/
+    max-width: 300px;
+    max-height: 380px;
+    border-radius: 100%;
+
+
+}
