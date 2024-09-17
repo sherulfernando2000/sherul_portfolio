@@ -161,5 +161,8 @@ header>nav>ul>li>a:active {
     transition: color 0.3s ease;
     /*border: #78e34e 2px solid;*/
     cursor: pointer;
+}
 
+.socialIcon .fa-brands:hover{
+    color: var(--main-color);
 }
