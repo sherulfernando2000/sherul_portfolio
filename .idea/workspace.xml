@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="logo added using div">
-      <change afterPath="$PROJECT_DIR$/assets/hero_section/hero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/hero_section/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sty.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/hero_section/hero_photo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aboutMe_section/aboutme.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,12 +20,19 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2kCQPMf5FOiCWaa77ZEbpKZdHnB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -34,14 +42,19 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sherul Fernando/Documents/GDSE/sherul_portfolio&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sonali/OneDrive/Desktop/Final project/my_new&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -51,12 +64,20 @@
       <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio\assets\Header_section" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assets\hero_section" />
       <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio\assets\hero_section" />
       <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio\assets\aboutMe_section" />
       <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio\assets\Header_section" />
       <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio\assets\skill_section" />
-      <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio\assets\project_section" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -85,6 +106,17 @@
       <workItem from="1725380571708" duration="838000" />
       <workItem from="1725416240684" duration="3000" />
       <workItem from="1725435503313" duration="55000" />
+      <workItem from="1725847231625" duration="12578000" />
+      <workItem from="1725933747350" duration="14884000" />
+      <workItem from="1725965565385" duration="1995000" />
+      <workItem from="1725976248676" duration="3850000" />
+      <workItem from="1726020987006" duration="7945000" />
+      <workItem from="1726106172420" duration="16520000" />
+      <workItem from="1726196800110" duration="5358000" />
+      <workItem from="1726224464048" duration="2610000" />
+      <workItem from="1726274729800" duration="1024000" />
+      <workItem from="1726282807764" duration="10417000" />
+      <workItem from="1726417035215" duration="9717000" />
     </task>
     <task id="LOCAL-00001" summary="done until hero section">
       <created>1722942224940</created>

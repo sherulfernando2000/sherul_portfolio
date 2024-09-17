@@ -9,8 +9,15 @@
     <link rel="icon" type ="image/x-icon" href="">
     <link rel="stylesheet" href="normalize.css" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
     <style>
-        body{
+        /*@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');*/
+
+
+      /*  body{
             background-color: black;
             color: white;
         }
@@ -51,7 +58,7 @@
         header>.logo{
             background: url("assets/Header_section/SD_white.png");
             background-size: cover;
-            /*border: 2px solid black;*/
+            !*border: 2px solid black;*!
             width: 69px;
             height: 64px;
             position: absolute;
@@ -64,10 +71,10 @@
         }
 
         header>nav>ul>li>a:hover{
-            /*background-color: black;*/
+            !*background-color: black;*!
             color: deepskyblue;
-            /*border-radius: 20px ;*/
-            /*padding: 5px;*/
+            !*border-radius: 20px ;*!
+            !*padding: 5px;*!
         }
 
         header>nav>ul>li>a:active {
@@ -90,8 +97,54 @@
             overflow: hidden;
         }
 
+        .welcomeTitles>h2{
+            font-size: 54px;
+        }
+
+        .welcomeTitles>h1{
+            font-size: 60px;
+        }
+
+        .welcomeTitles>h3{
+            font-size: 48px;
+            color: #00D3FF;
+        }
+
+        .welcomeDescription>p{
+            width: 50vw;
+            font-size: 25px;
+            font-family: Calibri;
+            font-style: italic;
+        }
+
+        .fa-brands{
+            font-size: 40px;
+            color: white;
+        }
+
+
+        .socialIcon&CvButton{
+            display: flex;
+        }
+
+        .socialIcon{
+            width: 30vw;
+            display: flex;
+            justify-content: space-between ;
+        }
+
+        .button{
+            width: 15vw;
+            height: 8vh;
+            font-size: 1.1em;
+            border-radius: 2em;
+            color: white;
+            background: linear-gradient(90deg, rgba(0,211,255,1) 14%, rgba(0,127,153,1) 100%);;
+        }
+
+
         
-        
+*/
 
 
     </style>
@@ -119,43 +172,62 @@
         </nav>
     </header>
 
+
      <!--hero section-->
-        <main class="hero" >
-            <!--Hero photo-->
-            <div class="heroPic"></div>
-<!--            <img src="assets/hero_section/aboutme.png" title="my photo" alt="my photo" width="250">-->
-            <!--Social media icon-->
-            <div>
-                <a href=""><i class="fa-brands fa-facebook" style=""></i></a>
-                <a href=""><i class="fa-brands fa-twitter"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></i></a>
-                <a href=""><i class="fa-brands fa-linkedin"></i></i></a>
+        <main class="hero" data-aos="fade-left" >
+            <div class="box-container-main">
+                <div class="box-main" >
+                    <!--Welcome titles-->
+                    <div class="welcomeTitles">
+                        <h2>Hello, It’s me</h2>
+                        <h1 class="heading1">Sherul Dhanushka</h1>
+                        <h3>Software Engineer</h3>
+                    </div>
 
+                    <!--description-->
+                    <div class="welcomeDescription">
+                        <p>Besides keeping up with new developments, I enjoy using them in real projects to see what's possible. Solving problems and making useful solutions excites me and helps me learn more.</p>
+
+                    </div>
+
+                    <!-- social media icon and download button-->
+
+                    <div class="socialIcon&CvButton">
+                        <!--Social media icon-->
+                        <div class="socialIcon">
+                            <a href=""><i class="fa-brands fa-facebook" style=""></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                            <button class="button">Download CV</button>
+                        </div>
+
+                        <!--download cv button-->
+
+
+
+                    </div>
+
+                </div>
+
+                <div class="box-main">
+                    <!--Hero photo-->
+                    <div class="heroPic" >
+                        <img src="assets/hero_section/hero.png" title="my photo" alt="my photo" class="animate__animated animate__bounce" >
+                        <img src="assets/hero_section/sdLogo.png " title="sd logo" alt="sd Logo" class="sdLogo">
+                    </div>
+
+                </div>
             </div>
 
-            <!--Welcome titles-->
-            <div>
-                <h2>Hello, It’s me</h2>
-                <h1>Sherul Dhanushka</h1>
-                <h3>Software Engineer</h3>
-            </div>
 
-            <!--description-->
-            <p>Besides keeping up with new developments, I enjoy using them in real projects to see what's possible. Solving problems and making useful solutions excites me and helps me learn more.</p>
-            <!--social media icon-->
-            <div>
-
-            </div>
-
-            <!--download cv button-->
-            <button>Download CV</button>
         </main>
 
     <!--About section-->
     <main id="about">
         <section>
             <!--About topic-->
-            <h1>-About Me-</h1>
+            <h1 class="heading1">-About Me-</h1>
             <!--About desc-->
             <p>Hello! I'm Sherul Dhanushka, a dedicated web developer with expertise in both front-end and back-end technologies. I specialize in crafting responsive and accessible web applications, ensuring a seamless user experience through meticulous UI/UX design.</p>
             <!--About my details-->
@@ -165,6 +237,7 @@
                 <div><span>Address: St.Peter’s Road, Maggona.</span></div>
                 <div><span>Email: sherul.dhanushka@gmail.com</span></div>
             </section>
+
             <!--About Photo-->
             <img src="assets/aboutMe_section/aboutme_photo.png" titile="" alt="my photo" width="250">
         </section>
@@ -633,6 +706,7 @@
 
     </main>
 
+
     <!--Contact section-->
     <main id="contact">
         <!--Contact tile-->
@@ -713,7 +787,7 @@
 
 
     <!--footer section-->
-    <footer>
+    <footer class="footer">
         <section>
             <div>
                 <p>copyright © 2024 developed by Sherul | All rights reserved</p>
@@ -722,6 +796,10 @@
 
     </footer>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 </html>
