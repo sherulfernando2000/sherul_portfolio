@@ -135,3 +135,12 @@ header>nav>ul>li>a:active {
     margin-bottom: 20px;
     color: var(--main-color);
 }
+
+.welcomeDescription p {
+    font-size: 1rem;
+    font-family: "IBM Plex Sans";
+    font-style: italic;
+    line-height: 1.6;
+    color: #878787;
+
+}
