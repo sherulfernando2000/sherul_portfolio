@@ -87,6 +87,9 @@ header>nav>ul>li>a:active {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    padding: 70px 20px;
+    min-height: 100vh;
+    box-sizing: border-box;
+    background: linear-gradient(48deg, rgba(0,0,0,1) 68%, rgba(2,72,87,1) 100%);
 }
 
