@@ -151,3 +151,15 @@ header>nav>ul>li>a:active {
     margin-top: 20px;
     /*border: #e8b24a 2px solid;*/
 }
+
+.socialIcon{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    font-size: 1.8rem;
+    transition: color 0.3s ease;
+    /*border: #78e34e 2px solid;*/
+    cursor: pointer;
+
+}
