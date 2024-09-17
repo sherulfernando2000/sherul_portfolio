@@ -189,3 +189,11 @@ header>nav>ul>li>a:active {
     padding-left: 50px;
     position: relative;
 }
+
+.sdLogo{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 250px;
+    right:-20px
+}
