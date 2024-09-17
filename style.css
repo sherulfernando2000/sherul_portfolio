@@ -121,3 +121,11 @@ header>nav>ul>li>a:active {
     font-size: 3rem;
     color: #878787;
 }
+
+.heading1 {
+    margin-top: 0;
+    font-size: 4rem;
+    font-weight: bold;
+    /*margin: 2px 0;*/
+    color: var(--text-color);
+}
