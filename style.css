@@ -219,6 +219,16 @@ header>nav>ul>li>a:active {
     max-width: 300px;
     max-height: 380px;
     border-radius: 100%;
+}
 
+@media all and (max-width:1200px ) {
+    html{
+        font-size: 75%;
+    }
+
+
+    .socialIcon{
+        font-size: 30px;
+    }
 
 }
