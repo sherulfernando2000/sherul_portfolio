@@ -94,5 +94,8 @@ header>nav>ul>li>a:active {
 }
 
 .box-container-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
