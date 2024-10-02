@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:--fa-animation-duration="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="this is desc">
-    <meta name="viewport" content="width-device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="aurthor" content="sheruldhanushka ">
     <title>sherul-software engineer</title>
     <link rel="icon" type ="image/x-icon" href="">
@@ -163,7 +163,7 @@
 
                 <li> <a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li> <a href="#services">Services</a></li>
+                <li> <a href="#service">Services</a></li>
                 <li> <a href="#works">Works</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li> <a href="#contact">Contact</a> </li>
@@ -180,13 +180,13 @@
                     <!--Welcome titles-->
                     <div class="welcomeTitles">
                         <h2>Hello, It’s me</h2>
-                        <h1 class="heading1">Sherul Dhanushka</h1>
+                        <h1 class="heading">Sherul Dhanushka</h1>
                         <h3>Software Engineer</h3>
                     </div>
 
                     <!--description-->
                     <div class="welcomeDescription">
-                        <p>Besides keeping up with new developments, I enjoy using them in real projects to see what's possible. Solving problems and making useful solutions excites me and helps me learn more.</p>
+                        <p class="italicParagraph">Besides keeping up with new developments, I enjoy using them in real projects to see what's possible. Solving problems and making useful solutions excites me and helps me learn more.</p>
 
                     </div>
 
@@ -225,84 +225,93 @@
 
     <!--About section-->
     <main id="about">
-        <section>
             <!--About topic-->
             <h1 class="heading1">-About Me-</h1>
+        <section class="box-container-about">
             <!--About desc-->
-            <p>Hello! I'm Sherul Dhanushka, a dedicated web developer with expertise in both front-end and back-end technologies. I specialize in crafting responsive and accessible web applications, ensuring a seamless user experience through meticulous UI/UX design.</p>
+            <div class="box-about">
+                <p class="italicParagraph aboutParagraph">Hello! I'm Sherul Dhanushka, a dedicated web developer with expertise in both front-end and back-end technologies. I specialize in crafting responsive and accessible web applications, ensuring a seamless user experience through meticulous UI/UX design.</p>
             <!--About my details-->
-            <section>
-                <div><span>Name: </span><span>Sherul Dhanushka Fernando</span></div>
-                <div><span>D.O.B: 2000/11/18</span></div>
-                <div><span>Address: St.Peter’s Road, Maggona.</span></div>
-                <div><span>Email: sherul.dhanushka@gmail.com</span></div>
-            </section>
+                <div class="myDetails">
+                    <div><span class="blueText">Name: </span><span class="whiteText">Sherul Dhanushka Fernando</span></div>
+                    <div><span class="blueText">D.O.B:</span ><span class="whiteText"> 2000/11/18</span></div>
+                    <div><span class="blueText">Address:</span><span class="whiteText"> St.Peter’s Road, Maggona.</span></div>
+                    <div><span class="blueText">Email: </span><span class="whiteText">sherul.dhanushka@gmail.com</span></div>
+                </div>
 
+            </div>
+
+             <div class="box-about">
             <!--About Photo-->
-            <img src="assets/aboutMe_section/aboutme_photo.png" titile="" alt="my photo" width="250">
+                <img src="assets/aboutMe_section/aboutme_photo.png" titile="" alt="my photo"  class="aboutMeImage">
+                 <div class="aboutImageShadow"></div>
+             </div>
+
         </section>
+    </main>
 
         <!--education section-->
-        <section>
+        <main id="education">
             <!--Eduction topic-->
-            <h2>Education</h2>
+            <h2 class="heading2">Education</h2>
             <!--Eduction card-->
-            <section>
+            <section class="box-container-education-card">
                 <!--fist card-->
                 <section>
-                    <img src="assets/aboutMe_section/ijse_logo.png" title="" alt="ijse logo" width="25">
-                    <h5>Institute of Software Enginnering</h5>
-                    <h6>BSc.Computer Science</h6>
+                    <img src="assets/aboutMe_section/ijse_logo.png" title="" alt="ijse logo" width="25" class="ijseLogo">
+                    <h5 class="whiteText">Institute of Software Enginnering</h5>
+                    <h6 class="italicParagraph">BSc.Computer Science</h6>
                 </section>
                 <!--Second card-->
                 <section>
-                    <img src="assets/aboutMe_section/rajarata_logo.png" title="" alt="rajarata uni logo" width="25">
-                    <h5>University Of Rajarata</h5>
-                    <h6>Selected for applied science</h6>
+                    <img src="assets/aboutMe_section/rajarata_logo.png" title="" alt="rajarata uni logo" width="25" class="rajarataLogo">
+                    <h5 class="whiteText">University Of Rajarata</h5>
+                    <h6  class="italicParagraph">Selected for applied science</h6>
                 </section>
 
                 <!--Third card-->
                 <section>
-                    <img src="assets/aboutMe_section/hcc_logo.png" title="" alt="hcc logo" width="25">
-                    <h5>Holy Cross College</h5>
-                    <h6>AL-Phsical Stream</h6>
+                    <img src="assets/aboutMe_section/hcc_logo.png" title="" alt="hcc logo" width="25" class="hccLogo">
+                    <h5 class="whiteText">Holy Cross College</h5>
+                    <h6  class="italicParagraph">AL-Phsical Stream</h6>
                 </section>
             </section>
-        </section>
-    </main>
+        </main>
+
 
     <!--Service section-->
-    <main id="service">
+    <main id="service" >
 
         <!--Service topic-->
-        <h1>-My Services-</h1>
+        <h1 class="heading1">-My Services-</h1>
         <!--Service desc-->
-        <p>Fueled by creativity and precision, I approach each project with a passion for excellence and an unwavering commitment to quality.</p>
+        <p class="italicParagraphCentered">Fueled by creativity and precision, I approach each project with a passion for excellence and an unwavering commitment to quality.</p>
 
-        <section>
+        <section class="box-container-service-card">
             <!--Service cards-->
             <!--card1-->
             <div>
                 <div>
                     <img src="assets/service_section/web.png" title="web icon" alt="web icon">
-                    <h4>web Development</h4>
-                    <p>I provide expert web design services utilizing HTML, CSS, JavaScript, MySQL, and PHP. My focus is on creating visually appealing and user-friendly websites.</p>
+                    <i ></i>
+                    <h4 class="heading4">web Development</h4>
+                    <p class="serviceParagraph">I provide expert web design services utilizing HTML, CSS, JavaScript, MySQL, and PHP. My focus is on creating visually appealing and user-friendly websites.</p>
                 </div>
             </div>
             <!--card2-->
             <div>
                 <div>
                     <img src="assets/service_section/software.png" title="software icon" alt="software icon">
-                    <h4>Software Development</h4>
-                    <p>I offer comprehensive software design services. My approach involves understanding your specific requirements and translating them into functional and user-friendly software</p>
+                    <h4 class="heading4">Software Development</h4>
+                    <p class="serviceParagraph">I offer comprehensive software design services. My approach involves understanding your specific requirements and translating them into functional and user-friendly software</p>
                 </div>
             </div>
             <!--card3-->
             <div>
                 <div>
                     <img src="assets/service_section/ui_ux.png" title="ui_ux icon" alt="ui_ux icon">
-                    <h4>UI/ UX design</h4>
-                    <p>I offer comprehensive UI/UX design services.My approach involves understanding your specific requirements and translating them into visually appealing and user-friendly designs.</p>
+                    <h4 class="heading4">UI/ UX design</h4>
+                    <p class="serviceParagraph">I offer comprehensive UI/UX design services.My approach involves understanding your specific requirements and translating them into visually appealing and user-friendly designs.</p>
                 </div>
             </div>
         </section>
@@ -313,48 +322,47 @@
     <!--Work section-->
     <main id="works">
         <!--Work title-->
-        <h1>-My Works-</h1>
+        <h1 class ="heading1">-My Works-</h1>
         <!--Work desc-->
-        <p>Fueled by creativity and precision, I approach each project with a passion for excellence and an unwavering commitment to quality.</p>
+        <p class="italicParagraphCentered">Fueled by creativity and precision, I approach each project with a passion for excellence and an unwavering commitment to quality.</p>
         <!--project titile-->
-        <h2>Projects</h2>
+        <h2 class="heading2">Projects</h2>
         <!--project desc-->
-        <p>Below, you can explore my individual projects, each demonstrating my expertise and innovative solutions.</p>
+        <p class="italicParagraph">Below, you can explore my individual projects, each demonstrating my expertise and innovative solutions.</p>
         <!--project cards-->
-        <section>
+        <section class = "box-container-project-cards">
             <!--Project1-->
-            <div>
-                <div>
+            <div class="box-project-card">
                     <img src="assets/project_section/project_s&sImage.png" title="" alt="bakery photo" width="100">
-                    <h6>Java stand alone application</h6>
-                    <h3>Bakery Management System</h3>
-                </div>
 
-                <div>
-                    <p>I offer comprehensive software design services. My approach involves understanding your specific requirements and translating them into functional and user-friendly software</p>
-                    <div>
+                <div class="overlay">
+
+                    <h3>Bakery Management System</h3>
+                    <h6>Java stand alone application</h6>
+                    <p>This project is built using Java, JavaFX, Maven, MySQL, JasperStudio, and an Email API.</p>
+                    <div class="viewbox">
                         <a href="">view</a>
-                        <i></i>
+                        <i class="fa fa-eye" aria-hidden="true"></i>
                     </div>
 
                 </div>
             </div>
 
-        </section>
 
         <!--project 2-->
-        <div>
-            <div>
+        <div  class="box-project-card">
+            <div >
                 <img src="assets/project_section/project_libraryImage.png" title="" alt="library photo" width="100">
-                <h6>Java stand alone application</h6>
-                <h3>Library Management System</h3>
+
             </div>
 
-            <div>
-                <p>I offer comprehensive software design services. My approach involves understanding your specific requirements and translating them into functional and user-friendly software</p>
+            <div class="overlay">
+                <h3>Library Management System</h3>
+                <h6>Java stand alone application</h6>
+                <p>This project is built using Java, JavaFX, Maven, MySQL, Hibernate, Layered Architecture, JasperStudio, and an Email API.</p>
                 <div>
                     <a href="">view</a>
-                    <i></i>
+                    <i class="fa fa-eye" aria-hidden="true"></i>
                 </div>
 
             </div>
@@ -363,21 +371,22 @@
 
         </div>
 
-        </section>
+
 
         <!--project 3-->
-        <div>
+        <div  class="box-project-card">
             <div>
                 <img src="assets/project_section/project_hotelImage.png" title="" alt="hotel photo" width="100">
-                <h6>Web Design</h6>
-                <h3>Hotel Management System</h3>
+
             </div>
 
-            <div>
-                <p>I offer comprehensive software design services. My approach involves understanding your specific requirements and translating them into functional and user-friendly software</p>
+            <div class="overlay">
+                <h3>Hotel Management System</h3>
+                <h6>Web Design</h6>
+                <p>This project is built using HTML, CSS, JavaScript</p>
                 <div>
                     <a href="">view</a>
-                    <i></i>
+                    <i class="fa fa-eye" aria-hidden="true"></i>
                 </div>
 
             </div>
@@ -386,21 +395,22 @@
 
         </div>
 
-        </section>
+
 
         <!--project 4-->
-        <div>
+        <div  class="box-project-card">
             <div>
                 <img src="assets/project_section/project_portfolioImage.png" title="" alt="portfolio photo" width="100">
-                <h6>Web Design</h6>
-                <h3>Portfolio</h3>
+
             </div>
 
-            <div>
-                <p>I offer comprehensive software design services. My approach involves understanding your specific requirements and translating them into functional and user-friendly software</p>
+            <div class="overlay">
+                <h3>Portfolio</h3>
+                <h6>Web Design</h6>
+                <p>This project is built using HTML, CSS, JavaScript</p>
                 <div>
                     <a href="">view</a>
-                    <i></i>
+                    <i class="fa fa-eye" aria-hidden="true"></i>
                 </div>
 
             </div>
@@ -409,21 +419,22 @@
 
         </div>
 
-        </section>
+
 
         <!--project 5-->
-        <div>
+        <div  class="box-project-card">
             <div>
                 <img src="assets/project_section/project_chatImage.png" title="" alt="chat app photo" width="100">
-                <h6>Web Design</h6>
-                <h3>Chat System</h3>
+
             </div>
 
-            <div>
-                <p>I offer comprehensive software design services. My approach involves understanding your specific requirements and translating them into functional and user-friendly software</p>
+            <div class="overlay">
+                <h3>Chat System</h3>
+                <h6>Web Design</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi eum fugit neque quod soluta volupta!</p>
                 <div>
                     <a href="">view</a>
-                    <i></i>
+                    <i class="fa fa-eye" aria-hidden="true"></i>
                 </div>
 
             </div>
@@ -432,21 +443,22 @@
 
         </div>
 
-        </section>
+
 
         <!--project 6-->
-        <div>
-            <div>
+        <div  class="box-project-card">
+            <div >
                 <img src="assets/project_section/project_hotelImage.png" title="" alt="hotel photo" width="100">
-                <h6>Web Design</h6>
-                <h3>Hotel Management System</h3>
+
             </div>
 
-            <div>
-                <p>I offer comprehensive software design services. My approach involves understanding your specific requirements and translating them into functional and user-friendly software</p>
+            <div class="overlay">
+                <h3>Hotel Management System</h3>
+                <h6>Web Design</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, aut et nulla perferendis quam reiciendi!</p>
                 <div>
                     <a href="">view</a>
-                    <i></i>
+                    <i class="fa fa-eye" aria-hidden="true"></i>
                 </div>
 
             </div>
@@ -454,114 +466,178 @@
 
 
         </div>
-
         </section>
 
     </main>
 
     <main>
         <!--asssignment tile-->
-        <h2>Assignment</h2>
+        <h2 class="heading2">Assignment</h2>
         <!--assignment desc-->
-        <p>Here are the assignments I have completed, showcasing my skills and dedication.</p>
+        <p class="italicParagraph">Here are the assignments I have completed, showcasing my skills and dedication.</p>
         <!--assignment cards-->
-        <section>
+        <section class="box-container-assignment-cards" >
             <!--1 Assignment-->
-            <div>
-                <div>
+            <div class="assigmentCard">
+                <div class="assignmentCardContent">
                     <img src="assets/assignment_section/assignment.png" title="" alt="assignment photo" width="100">
                     <h6>assignment 1 </h6>
-                </div>
-                <img src="" title="" alt="assignment real photo">
-                <div>
                     <div>
                         <a href="">view</a>
                         <i></i>
                     </div>
                 </div>
-
+                <!--                <img src="" title="" alt="assignment real photo">-->
             </div>
 
-            <!--2 assignment-->
-            <div>
-                <div>
+
+            <!--2 Assignment-->
+            <div class="assigmentCard">
+                <div class="assignmentCardContent">
                     <img src="assets/assignment_section/assignment.png" title="" alt="assignment photo" width="100">
                     <h6>assignment 2 </h6>
-                </div>
-                <img src="" title="" alt="assignment real photo">
-                <div>
                     <div>
                         <a href="">view</a>
                         <i></i>
                     </div>
                 </div>
-
+                <!--                <img src="" title="" alt="assignment real photo">-->
             </div>
 
-            <!--3 assignment-->
-            <div>
-                <div>
+            <!-3 Assignment-->
+            <div class="assigmentCard">
+                <div class="assignmentCardContent">
                     <img src="assets/assignment_section/assignment.png" title="" alt="assignment photo" width="100">
                     <h6>assignment 3 </h6>
-                </div>
-                <img src="" title="" alt="assignment real photo">
-                <div>
                     <div>
                         <a href="">view</a>
                         <i></i>
                     </div>
                 </div>
-
+                <!--                <img src="" title="" alt="assignment real photo">-->
             </div>
 
-            <!--4 assignment-->
-            <div>
-                <div>
+            <!--4 Assignment-->
+            <div class="assigmentCard">
+                <div class="assignmentCardContent">
                     <img src="assets/assignment_section/assignment.png" title="" alt="assignment photo" width="100">
                     <h6>assignment 4 </h6>
-                </div>
-                <img src="" title="" alt="assignment real photo">
-                <div>
                     <div>
                         <a href="">view</a>
                         <i></i>
                     </div>
                 </div>
-
+                <!--                <img src="" title="" alt="assignment real photo">-->
             </div>
 
-            <!--5 assignment-->
-            <div>
-                <div>
+            <!--5 Assignment-->
+            <div class="assigmentCard">
+                <div class="assignmentCardContent">
                     <img src="assets/assignment_section/assignment.png" title="" alt="assignment photo" width="100">
                     <h6>assignment 5 </h6>
-                </div>
-                <img src="" title="" alt="assignment real photo">
-                <div>
                     <div>
                         <a href="">view</a>
                         <i></i>
                     </div>
                 </div>
-
+                <!--                <img src="" title="" alt="assignment real photo">-->
             </div>
 
-            <!--6 assignment-->
-            <div>
-                <div>
+            <!-6 Assignment-->
+            <div class="assigmentCard">
+                <div class="assignmentCardContent">
                     <img src="assets/assignment_section/assignment.png" title="" alt="assignment photo" width="100">
-                    <h6>assignment 6 </h6>
-                </div>
-                <img src="" title="" alt="assignment real photo">
-                <div>
+                    <h6>assignment 6</h6>
                     <div>
                         <a href="">view</a>
                         <i></i>
                     </div>
                 </div>
-
+                <!--                <img src="" title="" alt="assignment real photo">-->
             </div>
 
+
+
+            <!-- &lt;!&ndash;2 assignment&ndash;&gt;
+             <div>
+                 <div>
+                     <img src="assets/assignment_section/assignment.png" title="" alt="assignment photo" width="100">
+                     <h6>assignment 2 </h6>
+                 </div>
+                 <img src="" title="" alt="assignment real photo">
+                 <div>
+                     <div>
+                         <a href="">view</a>
+                         <i></i>
+                     </div>
+                 </div>
+
+             </div>
+
+             &lt;!&ndash;3 assignment&ndash;&gt;
+             <div>
+                 <div>
+                     <img src="assets/assignment_section/assignment.png" title="" alt="assignment photo" width="100">
+                     <h6>assignment 3 </h6>
+                 </div>
+                 <img src="" title="" alt="assignment real photo">
+                 <div>
+                     <div>
+                         <a href="">view</a>
+                         <i></i>
+                     </div>
+                 </div>
+
+             </div>
+
+             &lt;!&ndash;4 assignment&ndash;&gt;
+             <div>
+                 <div>
+                     <img src="assets/assignment_section/assignment.png" title="" alt="assignment photo" width="100">
+                     <h6>assignment 4 </h6>
+                 </div>
+                 <img src="" title="" alt="assignment real photo">
+                 <div>
+                     <div>
+                         <a href="">view</a>
+                         <i></i>
+                     </div>
+                 </div>
+
+             </div>
+
+             &lt;!&ndash;5 assignment&ndash;&gt;
+             <div>
+                 <div>
+                     <img src="assets/assignment_section/assignment.png" title="" alt="assignment photo" width="100">
+                     <h6>assignment 5 </h6>
+                 </div>
+                 <img src="" title="" alt="assignment real photo">
+                 <div>
+                     <div>
+                         <a href="">view</a>
+                         <i></i>
+                     </div>
+                 </div>
+
+             </div>
+
+             &lt;!&ndash;6 assignment&ndash;&gt;
+             <div>
+                 <div>
+                     <img src="assets/assignment_section/assignment.png" title="" alt="assignment photo" width="100">
+                     <h6>assignment 6 </h6>
+                 </div>
+                 <img src="" title="" alt="assignment real photo">
+                 <div>
+                     <div>
+                         <a href="">view</a>
+                         <i></i>
+                     </div>
+                 </div>
+
+             </div>
+ -->
 
         </section>
 
@@ -572,95 +648,102 @@
     <!--Skills section-->
     <main id="skills">
         <!--sills titile-->
-        <h1>-My Skills-</h1>
+        <h1 class="heading1">-My Skills-</h1>
         <!--skill desc-->
-        <p>Highlighting my extensive skill set, I excel in various technologies and methodologies to deliver exceptional results.</p>
+        <p class="italicParagraphCentered">Highlighting my extensive skill set, I excel in various technologies and methodologies to deliver exceptional results.</p>
         <!--my toolbox desc-->
-        <h2>My ToolBox</h2>
+        <h2 class="heading2">My ToolBox</h2>
         <!--toolBox-->
         <section>
             <!--front end box-->
             <div>
-                <h3>Front end development</h3>
+                <h3 class="heading3">Front end development</h3>
                 <!--HTML Logo-->
-                <div>
-                    <img src="assets/skill_section/skill_htmlLogo.png" title="" alt="html logo" style="background-color: black" width="25">
 
+                <div class="box-container-tools">
+                <div>
+                    <i class="fa-brands fa-html5 fa-beat" style="--fa-animation-duration: 2.2s;"></i>
                     <h6>HTML</h6>
                 </div>
 
                 <!--CSS logo-->
                 <div>
-                    <img src="assets/skill_section/skill_cssLogo.png" title="" alt="Css logo" style="background-color: black" width="25">
+                    <i class="fa-brands fa-css3-alt fa-beat" style="--fa-animation-duration: 2.2s;"></i>
                     <h6>CSS</h6>
                 </div>
 
                 <!--JS logo-->
                 <div>
-                    <img src="assets/skill_section/skill_jsLogo.png" title="" alt="JS logo" style="background-color: black" width="25">
+                    <i class="fa-brands fa-square-js fa-beat" style="--fa-animation-duration: 2.2s;"></i>
                     <h6>JavaScript</h6>
                 </div>
 
                 <!--Angular logo-->
                 <div>
-                    <img src="assets/skill_section/skill_angularLogo.png" title="" alt="Angular logo" style="background-color: black" width="25">
+                    <i class="fa-brands fa-angular fa-beat" style="--fa-animation-duration: 2.2s;"></i>
                     <h6>Angular</h6>
+                </div>
                 </div>
             </div>
 
             <!--back end box-->
             <div>
-                <h3>Front end development</h3>
+                <h3 class="heading3">Backend development</h3>
+                <div class="box-container-tools">
                 <!--java logo-->
                 <div>
-                    <img src="assets/skill_section/skill_javaLogo.png" title="" alt="Java logo" style="background-color: black" width="25">
+                    <i class="fa-brands fa-java fa-beat" style="--fa-animation-duration: 2.2s;"></i>
                     <h6>Java</h6>
                 </div>
 
                 <!--Python logo-->
                 <div>
-                    <img src="assets/skill_section/skill_pythonLogo.png" title="" alt="Python logo" style="background-color: black" width="25">
+                    <i class="fa-brands fa-python fa-beat" style="--fa-animation-duration: 2.2s;"></i>
                     <h6>Python</h6>
                 </div>
 
                 <!--MySQL logo-->
                 <div>
-                    <img src="assets/skill_section/skill_sqlLogo.png" title="" alt="MySQL logo" style="background-color: black" width="25">
+                    <i class="fa-solid fa-database fa-beat" style="--fa-animation-duration: 2.2s;"></i>
                     <h6>MySql</h6>
                 </div>
 
                 <!--NodeJS logo-->
                 <div>
-                    <img src="assets/skill_section/skill_nodeJSLogo.png" title="" alt="NodeJS logo" style="background-color: black" width="25">
+                    <i class="fa-brands fa-node-js fa-beat" style="--fa-animation-duration: 2.2s;"> </i>
                     <h6>Node Js</h6>
+                </div>
                 </div>
             </div>
 
             <!--build tool-->
             <div>
-                <h3>Build Tools</h3>
+                <h3 class="heading3">Build Tools</h3>
                 <!--figma logo-->
+                <div class="box-container-tools">
                 <div>
-                    <img src="assets/skill_section/skill_figmaLogo.png" title="" alt="Figma logo" style="background-color: black" width="25">
+                    <i class="fa-brands fa-figma fa-beat" style="--fa-animation-duration: 2.2s;"></i>
                     <h6>Figma</h6>
                 </div>
 
                 <!--git logo-->
                 <div>
-                    <img src="assets/skill_section/skill_githubLogo.png" title="" alt="GIT logo" style="background-color: black" width="25">
+                    <i class="fa-brands fa-git-alt fa-beat" style="--fa-animation-duration: 2.2s;"></i>
                     <h6>Git</h6>
                 </div>
 
                 <!--intelij logo-->
                 <div>
-                    <img src="assets/skill_section/skill_intelijLogo.png" title="" alt="MySQL logo" style="background-color: black" width="25">
+                    <i class="fa-solid fa-newspaper fa-beat" style="--fa-animation-duration: 2.2s;"></i>
                     <h6>Intelij Ide</h6>
                 </div>
 
                 <!--vs code logo-->
                 <div>
-                    <img src="assets/skill_section/skill_vscodeLogo.png" title="" alt="NodeJS logo" style="background-color: black" width="25">
+                    <i class="fa-solid fa-code fa-beat" style="--fa-animation-duration: 2.2s;"></i>
                     <h6>VS code</h6>
+                </div>
+
                 </div>
             </div>
         </section>
@@ -790,7 +873,7 @@
     <footer class="footer">
         <section>
             <div>
-                <p>copyright © 2024 developed by Sherul | All rights reserved</p>
+                <p class="footerPara">copyright © 2024 developed by Sherul | All rights reserved</p>
             </div>
         </section>
 

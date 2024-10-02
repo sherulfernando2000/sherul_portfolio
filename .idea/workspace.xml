@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="logo added using div">
-      <change afterPath="$PROJECT_DIR$/assets/hero_section/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sty.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="added media query @media (max-width:500px)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sty.css" beforeDir="false" afterPath="$PROJECT_DIR$/sty.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,25 +38,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sonali/OneDrive/Desktop/Final project/my_new&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.index.html.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Sonali/IdeaProjects/POS_Others",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "build.tools",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio" />
@@ -117,6 +118,17 @@
       <workItem from="1726274729800" duration="1024000" />
       <workItem from="1726282807764" duration="10417000" />
       <workItem from="1726417035215" duration="9717000" />
+      <workItem from="1726556751105" duration="23142000" />
+      <workItem from="1726625983324" duration="11782000" />
+      <workItem from="1726669516392" duration="1027000" />
+      <workItem from="1726727098436" duration="10757000" />
+      <workItem from="1726756772974" duration="5819000" />
+      <workItem from="1726801827614" duration="1859000" />
+      <workItem from="1727073627720" duration="21447000" />
+      <workItem from="1727233836497" duration="695000" />
+      <workItem from="1727414058133" duration="5591000" />
+      <workItem from="1727606168391" duration="11395000" />
+      <workItem from="1727718463544" duration="680000" />
     </task>
     <task id="LOCAL-00001" summary="done until hero section">
       <created>1722942224940</created>
@@ -300,38 +312,226 @@
       <option name="project" value="LOCAL" />
       <updated>1725371097028</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00029" summary="added padding and bg color to the .hero class">
+      <option name="closed" value="true" />
+      <created>1726579934856</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1726579934856</updated>
+    </task>
+    <task id="LOCAL-00030" summary="added  .box-container-main class">
+      <option name="closed" value="true" />
+      <created>1726580124274</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1726580124274</updated>
+    </task>
+    <task id="LOCAL-00031" summary="added flex to .box-container-main class">
+      <option name="closed" value="true" />
+      <created>1726580153130</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1726580153130</updated>
+    </task>
+    <task id="LOCAL-00032" summary="added margin to .box-container-main class">
+      <option name="closed" value="true" />
+      <created>1726580186003</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1726580186003</updated>
+    </task>
+    <task id="LOCAL-00033" summary="added .box-main class">
+      <option name="closed" value="true" />
+      <created>1726580219580</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1726580219580</updated>
+    </task>
+    <task id="LOCAL-00034" summary="added box-container-main&gt;.box-main:nth-child(1)">
+      <option name="closed" value="true" />
+      <created>1726580252955</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1726580252955</updated>
+    </task>
+    <task id="LOCAL-00035" summary="added .welcomeTitles h2 class">
+      <option name="closed" value="true" />
+      <created>1726580305196</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1726580305196</updated>
+    </task>
+    <task id="LOCAL-00036" summary="added declations to .welcomeTitles h2 class">
+      <option name="closed" value="true" />
+      <created>1726580378996</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1726580378996</updated>
+    </task>
+    <task id="LOCAL-00037" summary="added declations to .heading1">
+      <option name="closed" value="true" />
+      <created>1726580408488</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1726580408488</updated>
+    </task>
+    <task id="LOCAL-00038" summary="added declations to .welcomeTitles h3">
+      <option name="closed" value="true" />
+      <created>1726580435857</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1726580435857</updated>
+    </task>
+    <task id="LOCAL-00039" summary="added declations to .welcomeDescription p">
+      <option name="closed" value="true" />
+      <created>1726580463075</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1726580463075</updated>
+    </task>
+    <task id="LOCAL-00040" summary="added declations to ..socialIcon\&amp;CvButton">
+      <option name="closed" value="true" />
+      <created>1726580487820</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1726580487820</updated>
+    </task>
+    <task id="LOCAL-00041" summary="added declations to ..socialIcon">
+      <option name="closed" value="true" />
+      <created>1726580508403</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1726580508403</updated>
+    </task>
+    <task id="LOCAL-00042" summary=".socialIcon .fa-brands:hover">
+      <option name="closed" value="true" />
+      <created>1726580542181</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1726580542181</updated>
+    </task>
+    <task id="LOCAL-00043" summary="added declations to .button">
+      <option name="closed" value="true" />
+      <created>1726580570409</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1726580570409</updated>
+    </task>
+    <task id="LOCAL-00044" summary="added declations to .button:hover">
+      <option name="closed" value="true" />
+      <created>1726580594436</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1726580594436</updated>
+    </task>
+    <task id="LOCAL-00045" summary="added declations to .box-container-main&gt;.box-main:nth-child(2)">
+      <option name="closed" value="true" />
+      <created>1726580618971</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1726580618971</updated>
+    </task>
+    <task id="LOCAL-00046" summary="added declations to .sdLogo">
+      <option name="closed" value="true" />
+      <created>1726580671164</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1726580671164</updated>
+    </task>
+    <task id="LOCAL-00047" summary="added declations to .heroPic">
+      <option name="closed" value="true" />
+      <created>1726580692177</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1726580692177</updated>
+    </task>
+    <task id="LOCAL-00048" summary="added declations to .heroPic img">
+      <option name="closed" value="true" />
+      <created>1726580712882</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1726580712882</updated>
+    </task>
+    <task id="LOCAL-00049" summary="added media query @media (max-width:1200px )">
+      <option name="closed" value="true" />
+      <created>1726580758990</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1726580758990</updated>
+    </task>
+    <task id="LOCAL-00050" summary="added media query @media (max-width:768px)">
+      <option name="closed" value="true" />
+      <created>1726580784912</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1726580784913</updated>
+    </task>
+    <task id="LOCAL-00051" summary="added media query @media (max-width:500px)">
+      <option name="closed" value="true" />
+      <created>1726580805758</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1726580805758</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="done project sectioning in works" />
-    <MESSAGE value="done assignment sectioning in works" />
-    <MESSAGE value="done skill sectioning" />
-    <MESSAGE value="done adding picture till gallery section" />
-    <MESSAGE value="done adding social media icon to hero section" />
-    <MESSAGE value="done contact me left side" />
-    <MESSAGE value="done contact me right side" />
-    <MESSAGE value="done navigation to each main section" />
-    <MESSAGE value="footer section done" />
-    <MESSAGE value="hero section photo added" />
-    <MESSAGE value="about me section photo added" />
-    <MESSAGE value="about me section all photo added" />
-    <MESSAGE value="service section web image  added" />
-    <MESSAGE value="service section software image  added" />
-    <MESSAGE value="service section ui image  added" />
-    <MESSAGE value="project section image  added" />
-    <MESSAGE value="Assignment section image  added" />
-    <MESSAGE value="Skills section image  added" />
-    <MESSAGE value="Gallery section image  added" />
-    <MESSAGE value="starting to add styles" />
-    <MESSAGE value="logo in header added and normalize.css added" />
-    <MESSAGE value="header section nav bar added" />
-    <MESSAGE value="header section content aligned to center and make space between navbar li" />
-    <MESSAGE value="removed navbar underlines in anchor tags" />
-    <MESSAGE value="logo added using div" />
-    <option name="LAST_COMMIT_MESSAGE" value="logo added using div" />
+    <MESSAGE value=".hero class added" />
+    <MESSAGE value="added display flex to the .hero class" />
+    <MESSAGE value="added padding and bg color to the .hero class" />
+    <MESSAGE value="added  .box-container-main class" />
+    <MESSAGE value="added flex to .box-container-main class" />
+    <MESSAGE value="added margin to .box-container-main class" />
+    <MESSAGE value="added .box-main class" />
+    <MESSAGE value="added box-container-main&gt;.box-main:nth-child(1)" />
+    <MESSAGE value="added .welcomeTitles h2 class" />
+    <MESSAGE value="added declations to .welcomeTitles h2 class" />
+    <MESSAGE value="added declations to .heading1" />
+    <MESSAGE value="added declations to .welcomeTitles h3" />
+    <MESSAGE value="added declations to .welcomeDescription p" />
+    <MESSAGE value="added declations to ..socialIcon\&amp;CvButton" />
+    <MESSAGE value="added declations to ..socialIcon" />
+    <MESSAGE value=".socialIcon .fa-brands:hover" />
+    <MESSAGE value="added declations to .button" />
+    <MESSAGE value="added declations to .button:hover" />
+    <MESSAGE value="added declations to .box-container-main&gt;.box-main:nth-child(2)" />
+    <MESSAGE value="added declations to .sdLogo" />
+    <MESSAGE value="added declations to .heroPic" />
+    <MESSAGE value="added declations to .heroPic img" />
+    <MESSAGE value="added media query @media (max-width:1200px )" />
+    <MESSAGE value="added media query @media (max-width:768px)" />
+    <MESSAGE value="added media query @media (max-width:500px)" />
+    <option name="LAST_COMMIT_MESSAGE" value="added media query @media (max-width:500px)" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
