@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="added media query @media (max-width:500px)">
+    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="done till skill section">
+      <change afterPath="$PROJECT_DIR$/assets/contact_section/office2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/contact_section/office3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/contact_section/office4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sty.css" beforeDir="false" afterPath="$PROJECT_DIR$/sty.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +49,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Sonali/IdeaProjects/POS_Others",
+    "last_opened_file_path": "C:/Users/Sonali/IdeaProjects/sherul_portfolio/assets/contact_section",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -61,15 +63,16 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assets\contact_section" />
       <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio" />
       <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio\assets\Header_section" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assets\contact_section" />
       <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assets\hero_section" />
       <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio\assets\hero_section" />
       <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio\assets\aboutMe_section" />
       <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio\assets\Header_section" />
-      <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio\assets\skill_section" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -129,6 +132,11 @@
       <workItem from="1727414058133" duration="5591000" />
       <workItem from="1727606168391" duration="11395000" />
       <workItem from="1727718463544" duration="680000" />
+      <workItem from="1727834031073" duration="814000" />
+      <workItem from="1727835314073" duration="162000" />
+      <workItem from="1728097757645" duration="7570000" />
+      <workItem from="1728176463476" duration="3563000" />
+      <workItem from="1728482313784" duration="13997000" />
     </task>
     <task id="LOCAL-00001" summary="done until hero section">
       <created>1722942224940</created>
@@ -312,14 +320,6 @@
       <option name="project" value="LOCAL" />
       <updated>1725371097028</updated>
     </task>
-    <task id="LOCAL-00029" summary="added padding and bg color to the .hero class">
-      <option name="closed" value="true" />
-      <created>1726579934856</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1726579934856</updated>
-    </task>
     <task id="LOCAL-00030" summary="added  .box-container-main class">
       <option name="closed" value="true" />
       <created>1726580124274</created>
@@ -496,14 +496,21 @@
       <option name="project" value="LOCAL" />
       <updated>1726580805758</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="done till skill section">
+      <option name="closed" value="true" />
+      <created>1727834113232</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1727834113232</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=".hero class added" />
     <MESSAGE value="added display flex to the .hero class" />
     <MESSAGE value="added padding and bg color to the .hero class" />
     <MESSAGE value="added  .box-container-main class" />
@@ -528,7 +535,8 @@
     <MESSAGE value="added media query @media (max-width:1200px )" />
     <MESSAGE value="added media query @media (max-width:768px)" />
     <MESSAGE value="added media query @media (max-width:500px)" />
-    <option name="LAST_COMMIT_MESSAGE" value="added media query @media (max-width:500px)" />
+    <MESSAGE value="done till skill section" />
+    <option name="LAST_COMMIT_MESSAGE" value="done till skill section" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

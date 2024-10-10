@@ -750,7 +750,7 @@
         <!--view certificate button-->
         <section>
             <div>
-                <h4>view certificates</h4>
+                <h4 class="btnCertficate">view certificates</h4>
                 <i></i>
             </div>
         </section>
@@ -760,29 +760,40 @@
     <!--Gallery section-->
     <main>
         <!--Gallery titile-->
-        <h1>-My Gallery-</h1>
+        <h1 class="heading1">-My Gallery-</h1>
         <!--Gallery desc-->
-        <p>Explore my gallery to see a collection of my photos and creative work. Together, let's bring your vision to life with inspiring and innovative designs.</p>
+        <p class="italicParagraphCentered">Explore my gallery to see a collection of my photos and creative work. Together, let's bring your vision to life with inspiring and innovative designs.</p>
         <!--Photos-->
-        <section>
+        <section class="gallery-box-container">
             <div>
-                <img src="assets/gallery_section/gallery_1Image.png"  title="" alt="" width="100">
+                <img src="assets/gallery_section/gallery_1Image.png"  title="" alt="" >
                 <div> </div><!--box-->
             </div>
 
             <div>
-                <img src="assets/gallery_section/gallery_2Image.png" title="" alt="" width="100">
+                <img src="assets/gallery_section/gallery_2Image.png" title="" alt="" >
                 <div> </div><!--box-->
             </div>
 
             <div>
-                <img src="assets/gallery_section/gallery_3Image.png" title="" alt="" width="100">
+                <img src="assets/gallery_section/gallery_3Image.png" title="" alt="" >
                 <div> </div><!--box-->
             </div>
 
             <div>
-                <img src="assets/gallery_section/gallery_4Image.png" title="" alt="" width="100">
+                <div>
+                    <p class="italicParagrahSm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus architecto asperiores corporis deleniti dicta dolor fugit, maiores nulla obcaecati porro quibusdam reiciendis voluptatibus! Asperiores eum laudantium nisi nulla quam.</p>
+
+                </div><!--box-->
+            </div>
+
+            <div>
+                <img src="assets/gallery_section/gallery_4Image.png" title="" alt="" height="180px" >
                 <div> </div><!--box-->
+            </div>
+
+            <div>
+                <div> <p class="italicParagrahSm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus architecto asperiores corporis deleniti dicta dolor fugit, maiores nulla obcaecati porro quibusdam reiciendis voluptatibus! Asperiores eum laudantium nisi nulla quam.</p> </div><!--box-->
             </div>
 
         </section>
@@ -793,14 +804,77 @@
     <!--Contact section-->
     <main id="contact">
         <!--Contact tile-->
-        <h1>-Contact Me-</h1>
-        <section>
-            <!--Contact table-->
+        <h1 class="heading1">-Contact Me-</h1>
+
+
+        <section class="box-container-contact">
+
+                <section class="container">
+                    <div class="contactInfo">
+                        <div class="box">
+                            <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="text">
+                                <h4>Address</h4>
+                                <p>St.peter’s road,<br>Maggona,Kalutara,<br>Sri,Lanka.</p>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="text">
+                                <h4>Phone No:</h4>
+                                <p>0778626300</p>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="text">
+                                <h4>Email</h4>
+                                <p>sherul.dhanushka@gmail.com</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <section  class="contactForm">
+                    <form>
+                        <h3>any project?</h3>
+                        <div class="inputBox">
+                            <label for="contactName" class="formLabel">Name:</label><br>
+                            <input type="text" id="contactName" class="fromController">
+                        </div>
+
+                        <div class="inputBox">
+                            <label for="contactEmail" class="formLabel">Email:</label><br>
+                            <input type="text" id="contactEmail" class="fromController">
+                        </div>
+
+                        <div class="inputBox">
+                            <label for="contactMessage" class="formLabel">Message:</label><br>
+                            <textarea type="text" id="contactMessage" class="fromController"></textarea>
+                        </div>
+
+                        <div class="inputBox">
+                            <button type="submit" name="" value="send" class="button">submit</button>
+                        </div>
+
+                    </form>
+
+                </section>
+
+        </section>
+
+
+
+        <!--<section>
+            &lt;!&ndash;Contact table&ndash;&gt;
             <table border="1">
                 <tr>
                     <td>
-                        <!--table leftside-->
-                        <!--contact details-->
+                        &lt;!&ndash;table leftside&ndash;&gt;
+                        &lt;!&ndash;contact details&ndash;&gt;
                         <div>
                             <div>
                             <pre>St.peter’s road,</pre>
@@ -816,7 +890,7 @@
                                 <pre>sherul.dhanushka@gmail.com</pre>
                             </div>
 
-                            <!--social image icons-->
+                            &lt;!&ndash;social image icons&ndash;&gt;
                             <div>
                                 <a href=""><i class="fa-brands fa-facebook" style=""></i></a>
                                 <a href=""><i class="fa-brands fa-twitter"></i></a>
@@ -830,31 +904,31 @@
                     </td>
 
                     <td>
-                        <!--table rightside-->
+                        &lt;!&ndash;table rightside&ndash;&gt;
 
-                    <!--senders details-->
+                    &lt;!&ndash;senders details&ndash;&gt;
                     <h2>any project?</h2>
 
                     <div>
                         <div>
                             <h6>NAME</h6>
-                            <p> --------------</p>
+                            <p> &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</p>
                         </div>
 
                         <div>
                             <h6>EMAIL</h6>
-                            <p> --------------</p>
+                            <p> &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</p>
                         </div>
 
                         <div>
                             <h6>MESSAGE</h6>
-                            <p> -----------------------------------</p>
-                            <p> -----------------------------------</p>
-                            <p> -----------------------------------</p>
+                            <p> -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</p>
+                            <p> -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</p>
+                            <p> -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</p>
                         </div>
                     </div>
 
-                    <!--submit button-->
+                    &lt;!&ndash;submit button&ndash;&gt;
                     <div>
                         <button>Submit now</button>
                     </div>
@@ -865,7 +939,7 @@
 
             </table>
         </section>
-
+-->
     </main>
 
 

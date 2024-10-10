@@ -806,3 +806,174 @@ main{
     color: #079ebd;
 }
 
+.btnCertficate{
+    width: fit-content;
+    background: rgb(0,211,255);
+    background: linear-gradient(81deg, rgba(0,211,255,1) 0%, rgba(0,127,153,1) 14%);
+    color: var(--text-color);
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-family: "Urbanist";
+    padding: 8px 35px;
+    cursor: pointer;
+    transition: background-color 0.3s ease ;
+}
+
+.btnCertficate:hover {
+    /*background: rgba(133, 133, 133, 0.19);*/
+    border: #FFFFFF 2px solid;
+}
+
+
+
+
+/*------------------------------------Gallery section----------------------------------------------------------------- */
+
+.gallery-box-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-box-container div{
+    margin: auto;
+}
+
+.gallery-box-container div img{
+    width: calc(100vw/6.5);
+
+}
+
+.gallery-box-container div div{
+    width: calc(100vw/6);
+
+}
+
+.italicParagrahSm{
+    font-size: 0.8rem;
+    font-family: "IBM Plex Sans";
+    font-style: italic;
+    line-height: 1.6;
+    color: var(--second-text-color);
+    text-align: center;
+}
+
+
+/*------------------------------------Contact section----------------------------------------------------------------- */
+
+.contactInfo{
+    background-image: url("assets/contact_section/office4.png");
+    width: 95%;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 5rem 1rem;
+
+}
+
+.box-container-contact{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box-container-contact>section{
+   padding: 1.5rem;
+
+}
+
+.box{
+    display: flex;
+    margin: 1.5rem 1.5rem;
+}
+.contactInfo{
+    padding-top: 2.5rem;
+}
+
+.contactInfo .box .icon{
+    padding: 0 1rem;
+}
+
+.contactInfo .box .text h4{
+    margin: 0;
+}
+
+.contactForm{
+    width: 100%;
+    border: 2px white solid;
+    border-radius: 20px;
+    background-color: rgba(80, 78, 78, 0.2);
+}
+
+
+.contactForm h3{
+    text-align: center;
+    margin-top: 0 ;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contactForm input, textarea{
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #FFFFFF;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+}
+
+.contactForm .inputBox{
+    margin: 1rem 0;
+
+}
+
+.contactForm .inputBox input, textarea{
+    width: 90%;
+
+}
+
+.contactForm button{
+    font-size: 1rem;
+    width: 70%;
+}
+
+form>div:nth-child(5){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media all and (max-width: 425px) {
+
+    .box-container-contact {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
