@@ -266,7 +266,7 @@ main{
     }
 
     .box-container-education-card{
-        border: var(--text-color) 2px solid;
+        /*border: var(--text-color) 2px solid;*/
         grid-template-columns: 1fr;
     }
 }
@@ -275,7 +275,7 @@ main{
 
 @media all and (max-width: 500px) {
     html{
-        font-size: 55%;
+        font-size: 60%;
     }
 
     .heroPic{
@@ -952,12 +952,15 @@ form>div:nth-child(5){
     .box-container-contact {
         display: flex;
         flex-direction: column-reverse;
+        font-size: 1.5rem;
 
     }
 
     .box-container-contact .contactInfo{
         width: 81vw;
     }
+
+
 
 
 }
