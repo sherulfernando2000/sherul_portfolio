@@ -955,7 +955,9 @@ form>div:nth-child(5){
 
     }
 
-
+    .box-container-contact .contactInfo{
+        width: 81vw;
+    }
 
 
 }
