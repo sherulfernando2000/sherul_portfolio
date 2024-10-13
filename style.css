@@ -579,7 +579,7 @@ main{
 
 @media all and (max-width: 425px) {
     html{
-        font-size: 50%;
+        font-size: 46%;
     }
     .box-container-service-card{
         display: grid;
