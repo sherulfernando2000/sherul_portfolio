@@ -312,7 +312,7 @@ main{
     }
 
     .socialIcon{
-        font-size: 2.4rem;
+        font-size: 4rem;
     }
 
     .box-container-main>.box-main:nth-child(2){
@@ -1133,13 +1133,25 @@ form>div:nth-child(5){
 
 /*------------------------------------------------MOBILE SIZE-----------------------------------*/
 
-@media all and(max-width: 425px) {
+@media (max-width: 425px) {
     .welcomeTitles>h1 {
         font-size: 5rem;
     }
 
     .welcomeDescription>p {
         font-size: 1.85rem;
+    }
+
+    .myDetails {
+        padding-left: 3rem;
+    }
+
+    .socialIcon {
+        font-size: 3rem;
+    }
+
+    .button {
+        font-size: 1.1rem;
     }
 
 }
