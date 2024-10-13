@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="425px v1">
-      <change afterPath="$PROJECT_DIR$/assets/gallery_section/gallery_5Image.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/gallery_section/gallery_6Image.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/gallery_section/gallery_7Image.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/gallery_section/gallery_8Image.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/assignment3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="done gallery roteting">
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +136,7 @@
       <workItem from="1728482313784" duration="25961000" />
       <workItem from="1728613432464" duration="6411000" />
       <workItem from="1728702454890" duration="5218000" />
-      <workItem from="1728799736890" duration="11155000" />
+      <workItem from="1728799736890" duration="14061000" />
     </task>
     <task id="LOCAL-00001" summary="done until hero section">
       <created>1722942224940</created>
@@ -327,22 +320,6 @@
       <option name="project" value="LOCAL" />
       <updated>1725371097028</updated>
     </task>
-    <task id="LOCAL-00035" summary="added .welcomeTitles h2 class">
-      <option name="closed" value="true" />
-      <created>1726580305196</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1726580305196</updated>
-    </task>
-    <task id="LOCAL-00036" summary="added declations to .welcomeTitles h2 class">
-      <option name="closed" value="true" />
-      <created>1726580378996</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1726580378996</updated>
-    </task>
     <task id="LOCAL-00037" summary="added declations to .heading1">
       <option name="closed" value="true" />
       <created>1726580408488</created>
@@ -511,14 +488,29 @@
       <option name="project" value="LOCAL" />
       <updated>1728552499007</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="done gallery roteting">
+      <option name="closed" value="true" />
+      <created>1728842409074</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1728842409074</updated>
+    </task>
+    <task id="LOCAL-00059" summary="done gallery roteting">
+      <option name="closed" value="true" />
+      <created>1728842462542</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1728842462542</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added .box-main class" />
     <MESSAGE value="added box-container-main&gt;.box-main:nth-child(1)" />
     <MESSAGE value="added .welcomeTitles h2 class" />
     <MESSAGE value="added declations to .welcomeTitles h2 class" />
@@ -543,7 +535,8 @@
     <MESSAGE value="done till till contact section 3" />
     <MESSAGE value="done till till contact section 3.1" />
     <MESSAGE value="425px v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="425px v1" />
+    <MESSAGE value="done gallery roteting" />
+    <option name="LAST_COMMIT_MESSAGE" value="done gallery roteting" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

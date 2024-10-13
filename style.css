@@ -353,7 +353,7 @@ main{
 
  #about{
      /*border: 2px solid white;*/
-     margin-top: 2rem;
+     /*margin-top: 2rem;*/
  }
 
  .box-container-about{
@@ -1131,7 +1131,7 @@ form>div:nth-child(5){
 
 }
 
-/*------------------------------------------------MOBILE SIZE-----------------------------------*/
+/*------------------------------------------------MOBILE SIZE--------------------------------------------------*/
 
 @media (max-width: 425px) {
     .welcomeTitles>h1 {
@@ -1154,9 +1154,55 @@ form>div:nth-child(5){
         font-size: 1.1rem;
     }
 
+    .box-container-project-cards {
+        grid-template-columns: repeat(1, minmax(15rem, 1fr));
+        align-items: center;
+        justify-content: center;
+    }
+
 }
 
 
+/*------------------------------------------------------MOBILE SIZE(Medium)--------------------------------------------*/
+@media (max-width: 375px) {
+    .welcomeTitles>h1 {
+        font-size: 4.3rem;
+    }
+
+    .welcomeTitles>h2, .welcomeTitles>h3 {
+        font-size: 4rem;
+    }
+
+    .welcomeDescription>p {
+        font-size: 1.6rem;
+    }
+
+    .hero {
+        padding: 60px 10px 20px;
+    }
+
+    .italicParagraph {
+        font-size: 1.649rem;
+    }
+
+    #education>section>section {
+        width: 92%;
+    }
+
+    .heading1 {
+        font-size: 5.7rem;
+    }
+
+    .italicParagraphCentered {
+        font-size: 1.657rem;
+    }
+
+    .box-container-service-card {
+        grid-gap: 25px;
+
+    }
+
+}
 
 
 
