@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="done till till contact section 2">
+    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="425px v1">
+      <change afterPath="$PROJECT_DIR$/assets/gallery_section/gallery_5Image.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gallery_section/gallery_6Image.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gallery_section/gallery_7Image.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gallery_section/gallery_8Image.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/assignment3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -39,13 +45,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.assignment3.html.executor": "Run",
     "JavaScript Debug.index.html.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Sonali/IdeaProjects/sherul_portfolio/assets/contact_section",
+    "last_opened_file_path": "C:/Users/Sonali/IdeaProjects/sherul_portfolio/assets/gallery_section",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -59,16 +66,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assets\gallery_section" />
       <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assets\contact_section" />
       <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio" />
       <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio\assets\Header_section" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assignments" />
       <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assets\contact_section" />
       <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assets\hero_section" />
       <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio\assets\hero_section" />
       <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio\assets\aboutMe_section" />
-      <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio\assets\Header_section" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -132,7 +140,10 @@
       <workItem from="1727835314073" duration="162000" />
       <workItem from="1728097757645" duration="7570000" />
       <workItem from="1728176463476" duration="3563000" />
-      <workItem from="1728482313784" duration="16893000" />
+      <workItem from="1728482313784" duration="25961000" />
+      <workItem from="1728613432464" duration="6411000" />
+      <workItem from="1728702454890" duration="5218000" />
+      <workItem from="1728799736890" duration="11155000" />
     </task>
     <task id="LOCAL-00001" summary="done until hero section">
       <created>1722942224940</created>
@@ -316,30 +327,6 @@
       <option name="project" value="LOCAL" />
       <updated>1725371097028</updated>
     </task>
-    <task id="LOCAL-00032" summary="added margin to .box-container-main class">
-      <option name="closed" value="true" />
-      <created>1726580186003</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1726580186003</updated>
-    </task>
-    <task id="LOCAL-00033" summary="added .box-main class">
-      <option name="closed" value="true" />
-      <created>1726580219580</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1726580219580</updated>
-    </task>
-    <task id="LOCAL-00034" summary="added box-container-main&gt;.box-main:nth-child(1)">
-      <option name="closed" value="true" />
-      <created>1726580252955</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1726580252955</updated>
-    </task>
     <task id="LOCAL-00035" summary="added .welcomeTitles h2 class">
       <option name="closed" value="true" />
       <created>1726580305196</created>
@@ -500,16 +487,37 @@
       <option name="project" value="LOCAL" />
       <updated>1728542774097</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="done till till contact section 3">
+      <option name="closed" value="true" />
+      <created>1728544075808</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1728544075808</updated>
+    </task>
+    <task id="LOCAL-00056" summary="done till till contact section 3.1">
+      <option name="closed" value="true" />
+      <created>1728544174692</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1728544174692</updated>
+    </task>
+    <task id="LOCAL-00057" summary="425px v1">
+      <option name="closed" value="true" />
+      <created>1728552499007</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1728552499007</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added  .box-container-main class" />
-    <MESSAGE value="added flex to .box-container-main class" />
-    <MESSAGE value="added margin to .box-container-main class" />
     <MESSAGE value="added .box-main class" />
     <MESSAGE value="added box-container-main&gt;.box-main:nth-child(1)" />
     <MESSAGE value="added .welcomeTitles h2 class" />
@@ -532,7 +540,10 @@
     <MESSAGE value="done till skill section" />
     <MESSAGE value="done till till contact section" />
     <MESSAGE value="done till till contact section 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="done till till contact section 2" />
+    <MESSAGE value="done till till contact section 3" />
+    <MESSAGE value="done till till contact section 3.1" />
+    <MESSAGE value="425px v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="425px v1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
