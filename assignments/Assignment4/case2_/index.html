@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>circle border</title>
+    <style>
+
+        body{
+           background-color: #7d7ded;
+
+        }
+        div{
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            border-radius: 100%;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            margin: auto;
+
+        }
+
+        body>div:first-child{
+            background-color: grey;
+            border: white 20px solid;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        body>div>div{
+            margin-left: -20px;
+            border: #ffffff 20px solid;
+            border-top-color: red;
+
+
+
+
+
+
+        }
+
+        body>div>p{
+            font-size: 30px;
+
+        }
+
+        body>div>div:hover{
+            transform: rotate(360deg);
+            transition: transform 2s;
+
+        }
+
+
+
+
+    </style>
+</head>
+
+<body>
+<div>
+    <p>RWAD</p>
+    <div></div>
+</div>
+
+</body>
+</html>
+
+
+
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 04-Case_02</title>
+
+    <style>
+        body{
+            background-color: #6db0ff;
+        }
+        body>div {
+            background-color: gray;
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+            align-items: center;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+
+        div::before{
+            content: "asdadfdhfdshfjdafldfdfadafka";
+            border: 15px solid white;
+            border-radius: 100%;
+            border-top-color: brown;
+
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+
+
+        }
+
+        body>div:hover::before{
+            transform: rotate(360deg);
+            transition: transform 2s;
+        }
+
+        div>h3{
+            width: max-content;
+            height: max-content;
+            color: white;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+    </style>
+
+</head>
+<body>
+
+<div>
+    <h3>RWAD</h3>
+</div>
+
+</body>
+</html>
+
+-->
+
+
+

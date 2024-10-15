@@ -4,8 +4,37 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="done gallery roteting">
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="mobile size(Medium) v2.2">
+      <change afterPath="$PROJECT_DIR$/Source/links" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/siteMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/Assignment4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/Case1/assets/icon/icons8-ambulance-64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/Case1/assets/icon/icons8-cart-48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/Case1/assets/icon/icons8-phonebook-64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/Case1/assets/icon/icons8-react-40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/Case1/assets/icon/icons8-sim-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/Case1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/Case3/case2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/Case4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/case 6/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/case2_/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/case5/assets/slide1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/case5/assets/slide2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/case5/assets/slide3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/case5/assets/slide4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/case5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/assignment.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/assignment1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/assignment2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/assignment4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/assignment5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/assignment6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/assignment3.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/assignment3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,14 +67,18 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.assignment1.html.executor": "Run",
+    "JavaScript Debug.assignment2.html.executor": "Run",
     "JavaScript Debug.assignment3.html.executor": "Run",
+    "JavaScript Debug.assignment4.html.executor": "Run",
     "JavaScript Debug.index.html.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Sonali/IdeaProjects/sherul_portfolio/assets/gallery_section",
+    "last_opened_file_path": "C:/Users/Sonali/IdeaProjects/sherul_portfolio/assignments",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -59,17 +92,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assignments" />
       <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assets\gallery_section" />
       <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assets\contact_section" />
       <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio" />
       <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio\assets\Header_section" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\Source" />
       <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assignments" />
       <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assets\contact_section" />
       <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assets\hero_section" />
       <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio\assets\hero_section" />
-      <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio\assets\aboutMe_section" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -136,7 +170,10 @@
       <workItem from="1728482313784" duration="25961000" />
       <workItem from="1728613432464" duration="6411000" />
       <workItem from="1728702454890" duration="5218000" />
-      <workItem from="1728799736890" duration="14061000" />
+      <workItem from="1728799736890" duration="16470000" />
+      <workItem from="1728902791072" duration="3055000" />
+      <workItem from="1728945171543" duration="640000" />
+      <workItem from="1728957264206" duration="7980000" />
     </task>
     <task id="LOCAL-00001" summary="done until hero section">
       <created>1722942224940</created>
@@ -320,38 +357,6 @@
       <option name="project" value="LOCAL" />
       <updated>1725371097028</updated>
     </task>
-    <task id="LOCAL-00037" summary="added declations to .heading1">
-      <option name="closed" value="true" />
-      <created>1726580408488</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1726580408488</updated>
-    </task>
-    <task id="LOCAL-00038" summary="added declations to .welcomeTitles h3">
-      <option name="closed" value="true" />
-      <created>1726580435857</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1726580435857</updated>
-    </task>
-    <task id="LOCAL-00039" summary="added declations to .welcomeDescription p">
-      <option name="closed" value="true" />
-      <created>1726580463075</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1726580463075</updated>
-    </task>
-    <task id="LOCAL-00040" summary="added declations to ..socialIcon\&amp;CvButton">
-      <option name="closed" value="true" />
-      <created>1726580487820</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1726580487820</updated>
-    </task>
     <task id="LOCAL-00041" summary="added declations to ..socialIcon">
       <option name="closed" value="true" />
       <created>1726580508403</created>
@@ -504,17 +509,45 @@
       <option name="project" value="LOCAL" />
       <updated>1728842462542</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="mobile size v1">
+      <option name="closed" value="true" />
+      <created>1728845400678</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1728845400678</updated>
+    </task>
+    <task id="LOCAL-00061" summary="mobile size(Medium) v2">
+      <option name="closed" value="true" />
+      <created>1728846559473</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1728846559473</updated>
+    </task>
+    <task id="LOCAL-00062" summary="mobile size(Medium) v2.1">
+      <option name="closed" value="true" />
+      <created>1728847062508</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1728847062508</updated>
+    </task>
+    <task id="LOCAL-00063" summary="mobile size(Medium) v2.2">
+      <option name="closed" value="true" />
+      <created>1728847542713</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1728847542713</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added box-container-main&gt;.box-main:nth-child(1)" />
-    <MESSAGE value="added .welcomeTitles h2 class" />
-    <MESSAGE value="added declations to .welcomeTitles h2 class" />
-    <MESSAGE value="added declations to .heading1" />
     <MESSAGE value="added declations to .welcomeTitles h3" />
     <MESSAGE value="added declations to .welcomeDescription p" />
     <MESSAGE value="added declations to ..socialIcon\&amp;CvButton" />
@@ -536,7 +569,11 @@
     <MESSAGE value="done till till contact section 3.1" />
     <MESSAGE value="425px v1" />
     <MESSAGE value="done gallery roteting" />
-    <option name="LAST_COMMIT_MESSAGE" value="done gallery roteting" />
+    <MESSAGE value="mobile size v1" />
+    <MESSAGE value="mobile size(Medium) v2" />
+    <MESSAGE value="mobile size(Medium) v2.1" />
+    <MESSAGE value="mobile size(Medium) v2.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="mobile size(Medium) v2.2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

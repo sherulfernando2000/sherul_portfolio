@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fontawsome</title>
+    <link rel="stylesheet" href="lib/css/all.min.css">
+    <style>
+
+        main{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        section{
+            display: flex;
+            width: fit-content;
+            animation: slider;
+            animation-iteration-count: infinite;
+            animation-duration: 12s;
+        }
+
+        div{
+            width: 50vw;
+            height: 60vh;
+            background-size: cover;
+            background-position: center;
+        }
+       div:first-child{
+           background-image: url("assets/slide1.jpeg");
+       }
+
+       div:nth-child(2){
+           background-image: url("assets/slide2.jpeg");
+       }
+       div:nth-child(3){
+           background-image: url("assets/slide3.jpeg");
+       }
+       div:nth-child(4){
+           background-image: url("assets/slide4.jpeg");
+       }
+
+       main{
+           width: 50vw;
+           height: 60vh;
+           border: grey 5px solid;
+           overflow: hidden;
+       }
+
+       @keyframes slider {
+           0%, 20%{
+                transform: translateX(0%);
+           }
+           25%, 45%{
+               transform: translateX(-20%);
+           }
+           50%, 70%{
+               transform: translateX(-40%);
+           }
+           75%, 95%{
+               transform: translateX(-60%);
+           }
+           100% {
+           }
+
+       }
+
+
+
+    </style>
+</head>
+
+<body>
+
+
+<main>
+<section>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</section>
+</main>
+
+<script src="../lib/js/all.min.js"></script>
+</body>
+</html>

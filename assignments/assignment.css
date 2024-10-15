@@ -1,0 +1,71 @@
+main{
+    padding-top: 2rem;
+   /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;*/
+}
+
+.assHeading1{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.assHeading2{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.case-box-container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    padding: 4rem 0;
+
+}
+
+.case-box{
+    width: 10rem;
+    height: 13rem;
+    border: #FFFFFF 3px solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(101, 101, 101, 0.27);
+
+}
+
+.assHeading5{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--text-color);
+
+}
+
+.case-button{
+    background: rgb(0,211,255);
+    background: linear-gradient(81deg, rgba(0,211,255,1) 0%, rgba(0,127,153,1) 14%);
+    color: var(--text-color);
+    border-radius: 20px;
+    font-size: 0.7rem;
+    font-family: "Urbanist";
+    padding: 6px 35px;
+    cursor: pointer;
+    transition: background-color 0.3s ease ;
+    margin: 0.4rem;
+}
+
+.case-button:hover{
+    border: 2px solid white;
+}

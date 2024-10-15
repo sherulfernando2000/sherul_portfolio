@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>case1</title>
+
+    <style>
+        body{
+            margin: 0;
+        }
+
+        ul{
+            /*position: relative;*/
+            height: 100vh;
+            padding: 0;
+            align-content: center;
+        }
+
+        ul>li{
+            display: flex;
+            list-style: none;
+            height: 50px;
+            width: 200px;
+            background-color: purple;
+            /*margin: 10px;*/
+            align-items: center;
+            margin-bottom: 10px;
+            position: relative;
+            left: -90px;
+
+            cursor: pointer;
+
+            transition-property: transform ;
+            transition-duration: 150ms ;
+            transition-timing-function: ease-out ;
+
+        }
+
+        ul>li:hover{
+            transform: translateX(90px);
+        }
+
+        ul>li>span{
+            position: absolute;
+            left: 6px;
+            color: white;
+        }
+
+        ul>li>img{
+            position: absolute;
+            right: 6px;
+            height: 40px;
+        }
+
+
+
+
+
+    </style>
+
+</head>
+
+
+<body>
+    <ul>
+        <li><span>Menu 1 </span> <img src="assets/icon/icons8-phonebook-64.png" alt="phonebook-icon"></li>
+        <li><span>Menu 2 </span><img src="assets/icon/icons8-ambulance-64.png" alt="icon"></li>
+        <li><span>Menu 3  </span><img src="assets/icon/icons8-sim-50.png" alt="icon"></li>
+        <li><span>Menu 4  </span><img src="assets/icon/icons8-react-40.png" alt="icon"></li>
+        <li><span>Menu 5  </span><img src="assets/icon/icons8-cart-48.png" alt="icon"></li>
+    </ul>
+
+</body>
+</html>

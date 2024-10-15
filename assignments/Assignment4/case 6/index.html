@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>car animation</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .sky{
+            width: 100vw;
+            height: 100vh;
+            background-image: url("assets/sky.jpg");
+            background-size: cover;
+            /*background-position: center;*/
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        .highway{
+            background-image: url("assets/road.jpg");
+            width: 1000%;
+            height: 25%;
+            position: absolute;
+            bottom: 0;
+            /*z-index: 1;*/
+            /*background-repeat:repeat-x ;*/
+            animation: highway 5s linear infinite;
+        }
+        
+        @keyframes highway {
+            100%{
+                transform: translateX(-3400px);
+            }
+        }
+
+        .city{
+            background-image: url("assets/city.png");
+            width: 500%;
+            height: 35%;
+            position: absolute;
+            bottom: 25%;
+            animation: city 15s linear infinite;
+        }
+
+        @keyframes city {
+            100%{
+                transform: translateX(-4000px);
+            }
+        }
+
+        .car{
+            width: 20%;
+            height: 20%;
+            background-image: url("assets/car.png");
+            background-size: cover;
+            position: absolute;
+            left: 40%;
+            bottom: 10%;
+        }
+
+        .wheel{
+            position: absolute;
+            left: 45%;
+            bottom: 25%;
+            z-index: 10;
+        }
+
+        .wheel img{
+            width: 55px;
+            height: 55px;
+            /*position: absolute;*/
+            /*left: 40%;*/
+            /*bottom: 25%;*/
+            position: relative;
+            animation: wheel 2s linear infinite;
+        }
+
+        @keyframes wheel {
+            100%{
+                transform: rotate(360deg);
+            }
+
+        }
+        
+        @keyframes wheeel2 {
+            
+        }
+
+        .frontWheel{
+            position: absolute;
+            left: 134px;
+            top: 94px
+
+        }
+
+        .backWheel{
+            position: absolute;
+            left: -104px;
+            top: 94px
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="sky">
+        <div class="highway"></div>
+        <div class="city"></div>
+        <div class="car"></div>
+        <div class="wheel">
+            <img src="assets/wheel.png " class="frontWheel">
+            <img src="assets/wheel.png" class="backWheel">
+        </div>
+    </div>
+
+</body>
+</html>
