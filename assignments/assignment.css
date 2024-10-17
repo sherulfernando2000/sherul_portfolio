@@ -28,19 +28,23 @@ main{
     display: grid;
     grid-template-columns: repeat(6,1fr);
     padding: 4rem 0;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .case-box{
     width: 10rem;
     height: 13rem;
-    border: #FFFFFF 3px solid;
-    border-radius: 20px;
+    border: #FFFFFF 0.23rem solid;
+    border-radius: 1.25rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: rgba(101, 101, 101, 0.27);
+    margin: auto;
 
 }
 
@@ -60,7 +64,7 @@ main{
     border-radius: 20px;
     font-size: 0.7rem;
     font-family: "Urbanist";
-    padding: 6px 35px;
+    padding: 0.4rem 2.2rem;
     cursor: pointer;
     transition: background-color 0.3s ease ;
     margin: 0.4rem;
@@ -69,3 +73,94 @@ main{
 .case-button:hover{
     border: 2px solid white;
 }
+
+
+/*--------------------------------------------tab size-------------------------------------------------------*/
+@media (max-width: 950px){
+    .case-box-container{
+        grid-template-columns: repeat(4,1fr);
+
+    }
+
+
+}
+
+@media (max-width: 768px){
+    .case-box-container{
+        grid-template-columns: repeat(3,1fr);
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

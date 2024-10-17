@@ -41,11 +41,12 @@ body{
     position: fixed;
     top: 0;
     z-index: 100;
+    padding: 0 3rem;
 
 }
 
 .header>nav{
-    position: absolute;
+    /*position: absolute;*/
     right: 2.5rem;
 }
 
@@ -71,8 +72,8 @@ header>.logo{
     /*border: 2px solid black;*/
     width: 3rem;
     height: 3.3rem;
-    position: absolute;
-    left: 2.5rem;
+    /*position: absolute;*/
+    /*left: 2.5rem;*/
 }
 
 
@@ -87,10 +88,78 @@ header>nav>ul>li>a:active {
     color: red;
 
 }
+
+.toggle_btn{
+    display: none;
+    font-size: 2.5rem;
+}
+
+.dropdown_menu{
+    display: none;
+    position: absolute;
+    right:2rem;
+    top: 6.2rem;
+    width: 34rem;
+    height: 0;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dropdown_menu.open{
+    height: 40rem;
+}
+
+
+.dropdown_menu li{
+    padding: 1.7rem;
+    font-size: 2.8rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.dropdown_menu li a{
+    text-decoration: none;
+
+}
+
+
+@media all and (max-width: 768px ) {
+    .header{
+        height: 5.9rem;
+    }
+
+    .navlist{
+        display: none;
+    }
+
+    .toggle_btn{
+        display: block;
+    }
+
+    .dropdown_menu{
+        display: block;
+    }
+
+}
+
+@media all and (max-width: 425px ) {
+    .dropdown_menu{
+        left: 2rem;
+        width: unset;
+    }
+}
+
+
 main{
    /* background: radial-gradient(circle at top right, #e171a6, rgb(180, 58, 119),transparent 50%, transparent 100%) fixed !important;
     background-color: #2d0019!important;*/
 }
+
+/*-------------------------------Footer Section---------------------------------------------------------------*/
 
 .footer{
     background-color: #FFFFFF;
@@ -110,7 +179,7 @@ main{
     justify-content: space-between;
     align-items: center;
     padding: 60px 20px;
-    min-height: 100vh;
+    /*min-height: 100vh;*/
     box-sizing: border-box;
     /*background: linear-gradient(48deg, rgba(0,0,0,1) 68%, rgba(2,72,87,1) 100%);*/
 }

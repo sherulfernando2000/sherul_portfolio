@@ -4,37 +4,13 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="mobile size(Medium) v2.2">
-      <change afterPath="$PROJECT_DIR$/Source/links" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/siteMap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/Assignment4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/Case1/assets/icon/icons8-ambulance-64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/Case1/assets/icon/icons8-cart-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/Case1/assets/icon/icons8-phonebook-64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/Case1/assets/icon/icons8-react-40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/Case1/assets/icon/icons8-sim-50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/Case1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/Case3/case2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/Case4/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/case 6/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/case2_/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/case5/assets/slide1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/case5/assets/slide2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/case5/assets/slide3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/case5/assets/slide4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/Assignment4/case5/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/assignment.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/assignment1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/assignment2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/assignment4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/assignment5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/assignment6.html" afterDir="false" />
+    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="done assignment section">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/assignment3.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/assignment3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/assignment.css" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/assignment.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/assignment5.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/assignment5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/assignment6.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/assignment6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,32 +40,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.assignment1.html.executor": "Run",
-    "JavaScript Debug.assignment2.html.executor": "Run",
-    "JavaScript Debug.assignment3.html.executor": "Run",
-    "JavaScript Debug.assignment4.html.executor": "Run",
-    "JavaScript Debug.index.html.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Sonali/IdeaProjects/sherul_portfolio/assignments",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.build.tools.auto.reload": "ALL",
-    "settings.editor.selected.configurable": "build.tools",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.assignment1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.assignment2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.assignment3.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.assignment4.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sonali/IdeaProjects/sherul_portfolio/assignments&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assignments" />
@@ -174,6 +150,9 @@
       <workItem from="1728902791072" duration="3055000" />
       <workItem from="1728945171543" duration="640000" />
       <workItem from="1728957264206" duration="7980000" />
+      <workItem from="1729001669542" duration="5310000" />
+      <workItem from="1729144530734" duration="5760000" />
+      <workItem from="1729166665925" duration="3230000" />
     </task>
     <task id="LOCAL-00001" summary="done until hero section">
       <created>1722942224940</created>
@@ -357,14 +336,6 @@
       <option name="project" value="LOCAL" />
       <updated>1725371097028</updated>
     </task>
-    <task id="LOCAL-00041" summary="added declations to ..socialIcon">
-      <option name="closed" value="true" />
-      <created>1726580508403</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1726580508403</updated>
-    </task>
     <task id="LOCAL-00042" summary=".socialIcon .fa-brands:hover">
       <option name="closed" value="true" />
       <created>1726580542181</created>
@@ -541,14 +512,21 @@
       <option name="project" value="LOCAL" />
       <updated>1728847542713</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="done assignment section">
+      <option name="closed" value="true" />
+      <created>1729001811016</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1729001811016</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added declations to .welcomeTitles h3" />
     <MESSAGE value="added declations to .welcomeDescription p" />
     <MESSAGE value="added declations to ..socialIcon\&amp;CvButton" />
     <MESSAGE value="added declations to ..socialIcon" />
@@ -573,7 +551,8 @@
     <MESSAGE value="mobile size(Medium) v2" />
     <MESSAGE value="mobile size(Medium) v2.1" />
     <MESSAGE value="mobile size(Medium) v2.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="mobile size(Medium) v2.2" />
+    <MESSAGE value="done assignment section" />
+    <option name="LAST_COMMIT_MESSAGE" value="done assignment section" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

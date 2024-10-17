@@ -160,7 +160,6 @@
         <!--nav section-->
         <nav class="navlist">
             <ul>
-
                 <li> <a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li> <a href="#service">Services</a></li>
@@ -170,6 +169,18 @@
 
             </ul>
         </nav>
+
+        <div class="dropdown_menu ">
+            <li> <a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li> <a href="#service">Services</a></li>
+            <li> <a href="#works">Works</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li> <a href="#contact">Contact</a> </li>
+        </div>
+        <div class="toggle_btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
     </header>
 
 
@@ -785,6 +796,25 @@
         AOS.init();
     </script>
 
+    <script>
+        /*---------------------------------Toggle btn---------------------------------------------------------------*/
+
+        const toggleBtn = document.querySelector('.toggle_btn');
+        const toggleBtnIcon = document.querySelector('.toggle_btn i');
+        const dropDownMenu = document.querySelector('.dropdown_menu');
+
+        toggleBtn.addEventListener("click",function (){
+            dropDownMenu.classList.toggle('open');
+            const isOpen = dropDownMenu.classList.contains('open');
+
+            toggleBtnIcon.classList = isOpen
+            ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+        })
+
+
+
+    </script>
 </body>
 </html>
 
