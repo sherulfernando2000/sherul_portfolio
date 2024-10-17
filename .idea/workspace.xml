@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="done toggle menu">
+    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="done header for mobile medium">
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -147,7 +147,7 @@
       <workItem from="1728957264206" duration="7980000" />
       <workItem from="1729001669542" duration="5310000" />
       <workItem from="1729144530734" duration="5760000" />
-      <workItem from="1729166665925" duration="4255000" />
+      <workItem from="1729166665925" duration="5363000" />
     </task>
     <task id="LOCAL-00001" summary="done until hero section">
       <created>1722942224940</created>
@@ -331,30 +331,6 @@
       <option name="project" value="LOCAL" />
       <updated>1725371097028</updated>
     </task>
-    <task id="LOCAL-00043" summary="added declations to .button">
-      <option name="closed" value="true" />
-      <created>1726580570409</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1726580570409</updated>
-    </task>
-    <task id="LOCAL-00044" summary="added declations to .button:hover">
-      <option name="closed" value="true" />
-      <created>1726580594436</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1726580594436</updated>
-    </task>
-    <task id="LOCAL-00045" summary="added declations to .box-container-main&gt;.box-main:nth-child(2)">
-      <option name="closed" value="true" />
-      <created>1726580618971</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1726580618971</updated>
-    </task>
     <task id="LOCAL-00046" summary="added declations to .sdLogo">
       <option name="closed" value="true" />
       <created>1726580671164</created>
@@ -515,15 +491,37 @@
       <option name="project" value="LOCAL" />
       <updated>1729176260305</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="done tab and mobile small">
+      <option name="closed" value="true" />
+      <created>1729177298433</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1729177298433</updated>
+    </task>
+    <task id="LOCAL-00067" summary="done tab and mobile small">
+      <option name="closed" value="true" />
+      <created>1729177308024</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1729177308025</updated>
+    </task>
+    <task id="LOCAL-00068" summary="done header for mobile medium">
+      <option name="closed" value="true" />
+      <created>1729177603359</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1729177603359</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added declations to ..socialIcon\&amp;CvButton" />
-    <MESSAGE value="added declations to ..socialIcon" />
     <MESSAGE value=".socialIcon .fa-brands:hover" />
     <MESSAGE value="added declations to .button" />
     <MESSAGE value="added declations to .button:hover" />
@@ -547,7 +545,9 @@
     <MESSAGE value="mobile size(Medium) v2.2" />
     <MESSAGE value="done assignment section" />
     <MESSAGE value="done toggle menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="done toggle menu" />
+    <MESSAGE value="done tab and mobile small" />
+    <MESSAGE value="done header for mobile medium" />
+    <option name="LAST_COMMIT_MESSAGE" value="done header for mobile medium" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
