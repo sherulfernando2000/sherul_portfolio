@@ -681,11 +681,11 @@ main{
 .box-project-card{
     width: 20rem;
     height: 20rem;
-    border: 2px solid white;
+    border: 2px solid rgba(255, 255, 255, 0.44);
     border-radius: 10%;
     position: relative;
     overflow: hidden;
-    box-shadow: 1px 4px 2px 1px #FFFFFF;
+    box-shadow: 1px 4px 2px 1px rgba(255, 255, 255, 0.83);
 }
 
 .box-project-card img{
