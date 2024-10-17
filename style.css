@@ -1261,9 +1261,11 @@ form>div:nth-child(5){
 
 /*------------------------------------------------------MOBILE SIZE(Medium)--------------------------------------------*/
 @media (max-width: 375px) {
-    .welcomeTitles>h1 {
-        font-size: 4.3rem;
+    header>.logo{
+        width:4rem;
+        height: 5.2rem;
     }
+
 
     .welcomeTitles>h2, .welcomeTitles>h3 {
         font-size: 4rem;
