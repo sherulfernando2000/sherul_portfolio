@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="done header for mobile medium">
+    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="mobile size responsive 1.3">
+      <change afterPath="$PROJECT_DIR$/assets/hero_section/sherul'sCV.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/certificates/73fe0fe0-7ded-42bf-8e44-0e122c6c7eee (1).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/certificates/92cda31a-9e49-42f7-8b00-6aa5a855208e.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/certificates/Front-End_Web_Development_E-Certificate.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/certificates/Python_for_Beginners_E-Certificate.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/certificates/Web_Design_for_Beginners_E-Certificate.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/certificates/certificate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/certificates/front-endWebDevelopment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/certificates/introToJava.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/certificates/javaIntermediate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/certificates/pythonForBeginners.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/certificates/webDesignForBeginners.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,46 +49,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.assignment1.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.assignment2.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.assignment3.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.assignment4.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sonali/IdeaProjects/sherul_portfolio/assignments&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.assignment1.html.executor": "Run",
+    "JavaScript Debug.assignment2.html.executor": "Run",
+    "JavaScript Debug.assignment3.html.executor": "Run",
+    "JavaScript Debug.assignment4.html.executor": "Run",
+    "JavaScript Debug.certificate.html.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Sonali/IdeaProjects/sherul_portfolio/assets/Header_section",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "build.tools",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assets\Header_section" />
+      <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\certificates" />
       <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assignments" />
       <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assets\gallery_section" />
       <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assets\contact_section" />
-      <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio" />
-      <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio\assets\Header_section" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assets\hero_section" />
+      <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\certificates" />
       <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\Source" />
       <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assignments" />
       <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assets\contact_section" />
-      <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assets\hero_section" />
-      <recent name="C:\Users\Sherul Fernando\Documents\GDSE\sherul_portfolio\assets\hero_section" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -147,7 +162,13 @@
       <workItem from="1728957264206" duration="7980000" />
       <workItem from="1729001669542" duration="5310000" />
       <workItem from="1729144530734" duration="5760000" />
-      <workItem from="1729166665925" duration="5363000" />
+      <workItem from="1729166665925" duration="6630000" />
+      <workItem from="1729217276968" duration="10882000" />
+      <workItem from="1729295073176" duration="1784000" />
+      <workItem from="1729313157988" duration="3250000" />
+      <workItem from="1729497504290" duration="2690000" />
+      <workItem from="1729539454679" duration="10792000" />
+      <workItem from="1729631779718" duration="15366000" />
     </task>
     <task id="LOCAL-00001" summary="done until hero section">
       <created>1722942224940</created>
@@ -331,38 +352,6 @@
       <option name="project" value="LOCAL" />
       <updated>1725371097028</updated>
     </task>
-    <task id="LOCAL-00046" summary="added declations to .sdLogo">
-      <option name="closed" value="true" />
-      <created>1726580671164</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1726580671164</updated>
-    </task>
-    <task id="LOCAL-00047" summary="added declations to .heroPic">
-      <option name="closed" value="true" />
-      <created>1726580692177</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1726580692177</updated>
-    </task>
-    <task id="LOCAL-00048" summary="added declations to .heroPic img">
-      <option name="closed" value="true" />
-      <created>1726580712882</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1726580712882</updated>
-    </task>
-    <task id="LOCAL-00049" summary="added media query @media (max-width:1200px )">
-      <option name="closed" value="true" />
-      <created>1726580758990</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1726580758990</updated>
-    </task>
     <task id="LOCAL-00050" summary="added media query @media (max-width:768px)">
       <option name="closed" value="true" />
       <created>1726580784912</created>
@@ -515,17 +504,45 @@
       <option name="project" value="LOCAL" />
       <updated>1729177603359</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="mobile size responsive">
+      <option name="closed" value="true" />
+      <created>1729178428848</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1729178428848</updated>
+    </task>
+    <task id="LOCAL-00070" summary="mobile size responsive 1.1">
+      <option name="closed" value="true" />
+      <created>1729178667725</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1729178667725</updated>
+    </task>
+    <task id="LOCAL-00071" summary="mobile size responsive 1.2">
+      <option name="closed" value="true" />
+      <created>1729179024182</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1729179024182</updated>
+    </task>
+    <task id="LOCAL-00072" summary="mobile size responsive 1.3">
+      <option name="closed" value="true" />
+      <created>1729179178082</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1729179178082</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=".socialIcon .fa-brands:hover" />
-    <MESSAGE value="added declations to .button" />
-    <MESSAGE value="added declations to .button:hover" />
-    <MESSAGE value="added declations to .box-container-main&gt;.box-main:nth-child(2)" />
     <MESSAGE value="added declations to .sdLogo" />
     <MESSAGE value="added declations to .heroPic" />
     <MESSAGE value="added declations to .heroPic img" />
@@ -547,7 +564,11 @@
     <MESSAGE value="done toggle menu" />
     <MESSAGE value="done tab and mobile small" />
     <MESSAGE value="done header for mobile medium" />
-    <option name="LAST_COMMIT_MESSAGE" value="done header for mobile medium" />
+    <MESSAGE value="mobile size responsive" />
+    <MESSAGE value="mobile size responsive 1.1" />
+    <MESSAGE value="mobile size responsive 1.2" />
+    <MESSAGE value="mobile size responsive 1.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="mobile size responsive 1.3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

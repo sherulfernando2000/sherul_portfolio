@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="this is desc">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="aurthor" content="sheruldhanushka ">
+    <link rel="stylesheet" href="../normalize.css" >
+    <title>Certficate</title>
+
+    <style>
+
+        *{
+            font-family: "Urbanist", sans-serif,"IBM Plex Sans";
+            font-optical-sizing: auto;
+            /*font-weight: <weight>;*/
+            font-style: normal;
+            /*background-color: var(--bg-color);*/
+            color: #FFFFFFFF;
+            box-sizing: border-box;
+        }
+
+        h1{
+            margin-top: 2rem;
+            margin-bottom: 0.9rem;
+            font-size: 3rem;
+            font-weight: bold;
+            /*margin: 2px 0;*/
+            color: var(--text-color);
+            text-align: center;
+        }
+
+        h3{
+            font-size: 2rem;
+            margin-left: 2.5rem;
+        }
+
+        h5{
+            font-size: 0.9rem;
+            margin-top: 1rem;
+            margin-left: 0.5rem;
+        }
+
+        body{
+            overflow-x: hidden ;
+            background: radial-gradient(circle at top left , #202020, rgb(0, 83, 101),transparent 20%, transparent 100%) fixed, radial-gradient(circle at bottom right, #202020, rgb(0, 83, 101),transparent 15%, transparent 100%) fixed !important;
+            background-color: #000000 !important;
+        }
+
+        .box-container-certificate{
+            display: grid;
+            grid-template-columns:repeat(3,1fr);
+            /*grid-gap: 2.5rem;*/
+            align-items: center;
+            justify-content: center;
+        }
+
+        .box-certificate{
+            border: 0.1rem white solid;
+            border-radius: 1rem;
+            width: 17rem;
+            height: 15rem;
+            margin: auto;
+            display: flex;
+
+            align-items: center;
+            flex-direction: column;
+            background-color: rgba(69, 69, 69, 0.19);
+
+
+        }
+
+        .box-certificate>img{
+            width: 99%;
+            margin: 0.1rem;
+            border-radius: 1rem;
+            align-self: center;
+        }
+
+        @media all and (max-width: 1000px) {
+            html{
+                font-size: 75%;
+            }
+
+        }
+
+        @media all and (max-width: 768px) {
+            .box-container-certificate {
+                display: grid;
+                grid-template-columns:repeat(2, 1fr);
+                gap: 2rem;
+            }
+
+        }
+
+        @media all and (max-width: 480px) {
+            .box-container-certificate {
+                display: grid;
+                grid-template-columns:repeat(1, 1fr);
+                gap: 2rem;
+            }
+
+        }
+
+    </style>
+</head>
+
+<body>
+<h1>CERTIFICATES</h1>
+
+<h3>University Of Moratuwa</h3>
+    <div class="box-container-certificate">
+        <div class="box-certificate">
+            <img src="pythonForBeginners.png">
+            <h5>Python For Beginners </h5>
+        </div>
+
+        <div class="box-certificate">
+            <img src="webDesignForBeginners.png">
+            <h5>Web Design For Beginners </h5>
+        </div>
+
+        <div class="box-certificate">
+            <img src="front-endWebDevelopment.png">
+            <h5>Front End Web Development</h5>
+        </div>
+
+
+
+    </div>
+
+
+
+<h3>Sololearn</h3>
+<div class="box-container-certificate">
+    <div class="box-certificate">
+        <img src="introToJava.png">
+        <h5>Introduction to Java </h5>
+    </div>
+
+    <div class="box-certificate">
+        <img src="javaIntermediate.png">
+        <h5>Java Intermediate</h5>
+    </div>
+
+</div>
+
+
+
+</body>
+</html>
