@@ -4,22 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="mobile size responsive 1.3">
-      <change afterPath="$PROJECT_DIR$/assets/hero_section/sherul'sCV.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/certificates/73fe0fe0-7ded-42bf-8e44-0e122c6c7eee (1).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/certificates/92cda31a-9e49-42f7-8b00-6aa5a855208e.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/certificates/Front-End_Web_Development_E-Certificate.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/certificates/Python_for_Beginners_E-Certificate.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/certificates/Web_Design_for_Beginners_E-Certificate.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/certificates/certificate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/certificates/front-endWebDevelopment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/certificates/introToJava.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/certificates/javaIntermediate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/certificates/pythonForBeginners.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/certificates/webDesignForBeginners.png" afterDir="false" />
+    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="smooth scrolling with animations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,33 +36,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.assignment1.html.executor": "Run",
-    "JavaScript Debug.assignment2.html.executor": "Run",
-    "JavaScript Debug.assignment3.html.executor": "Run",
-    "JavaScript Debug.assignment4.html.executor": "Run",
-    "JavaScript Debug.certificate.html.executor": "Run",
-    "JavaScript Debug.index.html.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Sonali/IdeaProjects/sherul_portfolio/assets/Header_section",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.build.tools.auto.reload": "ALL",
-    "settings.editor.selected.configurable": "build.tools",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.assignment1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.assignment2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.assignment3.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.assignment4.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.certificate.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sonali/IdeaProjects/sherul_portfolio/assets/Header_section&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assets\Header_section" />
@@ -168,7 +155,9 @@
       <workItem from="1729313157988" duration="3250000" />
       <workItem from="1729497504290" duration="2690000" />
       <workItem from="1729539454679" duration="10792000" />
-      <workItem from="1729631779718" duration="15366000" />
+      <workItem from="1729631779718" duration="16997000" />
+      <workItem from="1729911054405" duration="466000" />
+      <workItem from="1732140750570" duration="1150000" />
     </task>
     <task id="LOCAL-00001" summary="done until hero section">
       <created>1722942224940</created>
@@ -352,14 +341,6 @@
       <option name="project" value="LOCAL" />
       <updated>1725371097028</updated>
     </task>
-    <task id="LOCAL-00050" summary="added media query @media (max-width:768px)">
-      <option name="closed" value="true" />
-      <created>1726580784912</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1726580784913</updated>
-    </task>
     <task id="LOCAL-00051" summary="added media query @media (max-width:500px)">
       <option name="closed" value="true" />
       <created>1726580805758</created>
@@ -536,14 +517,21 @@
       <option name="project" value="LOCAL" />
       <updated>1729179178082</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="smooth scrolling with animations">
+      <option name="closed" value="true" />
+      <created>1729696038246</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1729696038246</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added declations to .sdLogo" />
     <MESSAGE value="added declations to .heroPic" />
     <MESSAGE value="added declations to .heroPic img" />
     <MESSAGE value="added media query @media (max-width:1200px )" />
@@ -568,7 +556,8 @@
     <MESSAGE value="mobile size responsive 1.1" />
     <MESSAGE value="mobile size responsive 1.2" />
     <MESSAGE value="mobile size responsive 1.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="mobile size responsive 1.3" />
+    <MESSAGE value="smooth scrolling with animations" />
+    <option name="LAST_COMMIT_MESSAGE" value="smooth scrolling with animations" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
