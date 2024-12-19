@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="description" content="this is desc">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="aurthor" content="sheruldhanushka ">
+    <meta name="aurthor" content="sheruldhanushka">
     <title>sherul-software engineer</title>
     <link rel="icon" type ="image/x-icon" href="">
     <link rel="stylesheet" href="normalize.css" >
@@ -389,11 +389,11 @@
             </div>
 
             <div class="overlay">
-                <h3>Library Management System</h3>
+                <h3>Culinary Management System</h3>
                 <h6>Java stand alone application</h6>
-                <p>This project is built using Java, JavaFX, Maven, MySQL, Hibernate, Layered Architecture, JasperStudio, and an Email API.</p>
+                <p>This project is built using Java, JavaFX,Hibernate, Layered Architecture.</p>
                 <div>
-                    <a href="">view</a>
+                    <a href="https://github.com/sherulfernando2000/Student_Management_System_ORM.git">view</a>
                     <i class="fa fa-eye" aria-hidden="true"></i>
                 </div>
 
@@ -413,11 +413,11 @@
             </div>
 
             <div class="overlay">
-                <h3>Hotel Management System</h3>
+                <h3>POS System</h3>
                 <h6>Web Design</h6>
                 <p>This project is built using HTML, CSS, JavaScript</p>
                 <div>
-                    <a href="">view</a>
+                    <a href="https://github.com/sherulfernando2000/Assigment-6_POS-System.git">view</a>
                     <i class="fa fa-eye" aria-hidden="true"></i>
                 </div>
 
@@ -465,7 +465,7 @@
                 <h6>Web Design</h6>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi eum fugit neque quod soluta volupta!</p>
                 <div>
-                    <a href="">view</a>
+                    <a href="https://github.com/sherulfernando2000/NetworkProgramming.git">view</a>
                     <i class="fa fa-eye" aria-hidden="true"></i>
                 </div>
 
@@ -485,11 +485,11 @@
             </div>
 
             <div class="overlay">
-                <h3>Hotel Management System</h3>
-                <h6>Web Design</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, aut et nulla perferendis quam reiciendi!</p>
+                <h3>Connect 4 Game</h3>
+                <h6>Java Stand Alone Application</h6>
+                <p>This project is built using Java, JavaFX</p>
                 <div>
-                    <a href="">view</a>
+                    <a href="https://github.com/sherulfernando2000/connect-four-game-assignment.git">view</a>
                     <i class="fa fa-eye" aria-hidden="true"></i>
                 </div>
 
@@ -588,10 +588,66 @@
                 <!--                <img src="" title="" alt="assignment real photo">-->
             </div>
 
+            <!-7 Assignment-->
+            <div class="assigmentCard">
+                <div class="assignmentCardContent">
+                    <img src="assets/assignment_section/assignment.png" title="" alt="assignment photo" width="100">
+                    <h6>assignment 7 </h6>
+                    <div>
+                        <a href="assignments/assignment7.html">view</a>
+                        <i></i>
+                    </div>
+                </div>
+                <!--                <img src="" title="" alt="assignment real photo">-->
+            </div>
+
+            <!-8 Assignment-->
+            <div class="assigmentCard">
+                <div class="assignmentCardContent">
+                    <img src="assets/assignment_section/assignment.png" title="" alt="assignment photo" width="100">
+                    <h6>assignment 8 </h6>
+                    <div>
+                        <a href="assignments/assignment8.html">view</a>
+                        <i></i>
+                    </div>
+                </div>
+                <!--                <img src="" title="" alt="assignment real photo">-->
+            </div>
+
+            <!-9 Assignment-->
+            <div class="assigmentCard">
+                <div class="assignmentCardContent">
+                    <img src="assets/assignment_section/assignment.png" title="" alt="assignment photo" width="100">
+                    <h6>assignment 9</h6>
+                    <div>
+                        <a href="assignments/assignment9.html">view</a>
+                        <i></i>
+                    </div>
+                </div>
+                <!--                <img src="" title="" alt="assignment real photo">-->
+            </div>
+
+            <!-10 Assignment-->
+            <div class="assigmentCard">
+                <div class="assignmentCardContent">
+                    <img src="assets/assignment_section/assignment.png" title="" alt="assignment photo" width="100">
+                    <h6>assignment 10</h6>
+                    <div>
+                        <a href="assignments/assignment10.html">view</a>
+                        <i></i>
+                    </div>
+                </div>
+                <!--                <img src="" title="" alt="assignment real photo">-->
+            </div>
+
 
         </section>
 
+
+
     </main>
+
+
 
 
     <!--Skills section-->
@@ -770,22 +826,25 @@
                 </section>
 
                 <section  class="contactForm" data-aos="fade-up" data-aos-duration="1500">
-                    <form>
+                    <form id="contactForm" action="https://api.web3forms.com/submit" method="POST" onsubmit="clearForm(event)">
+                        <input type="hidden" name="access_key" value="fb933a29-8dd9-46f6-b8f1-12be6e0da518">
                         <h3>any project?</h3>
                         <div class="inputBox">
                             <label for="contactName" class="formLabel">Name:</label><br>
-                            <input type="text" id="contactName" class="fromController">
+                            <input type="text" id="contactName" class="fromController" name="name" required>
                         </div>
 
                         <div class="inputBox">
-                            <label for="contactEmail" class="formLabel">Email:</label><br>
+                            <label for="contactEmail" class="formLabel" name="email" required>Email:</label><br>
                             <input type="text" id="contactEmail" class="fromController">
                         </div>
 
                         <div class="inputBox">
                             <label for="contactMessage" class="formLabel">Message:</label><br>
-                            <textarea type="text" id="contactMessage" class="fromController"></textarea>
+                            <textarea type="text" id="contactMessage" class="fromController" name="message" required></textarea>
                         </div>
+
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 
                         <div class="inputBox">
                             <button type="submit" name="" value="send" class="button">submit</button>
@@ -838,6 +897,7 @@
 
     </script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
         var typed = new Typed(".auto-type",{
             strings: ["BACKEND DEVELOPER","FRONTEND DEVELOPER","SOFTWARE ENGINEER"],
@@ -847,198 +907,49 @@
 
         })
 
+
+        function clearForm(event) {
+            // Prevent the default form submission
+            event.preventDefault();
+
+            // Fetch the form element
+            const form = document.getElementById('contactForm');
+
+            // Send the form data using Fetch API
+            fetch(form.action, {
+                method: form.method,
+                body: new FormData(form)
+            }).then(response => {
+                if (response.ok) {
+                    //alert('Email sent successfully!'); // Optional success message
+                    Swal.fire({
+                        position: "top-end",
+                        icon: "success",
+                        title: "Email sent successfully!",
+                        showConfirmButton: false,
+                        timer: 1500
+                    });
+                    form.reset(); // Clear all input fields
+                } else {
+                    //alert('Failed to send email. Please try again.');
+                    Swal.fire({
+                        icon: "error",
+                        title: "Failed to send email. Please try again.",
+                        text: "Address field empty",
+
+                    });
+                }
+            }).catch(error => {
+                console.error('Error:', error);
+                alert('An error occurred. Please try again.');
+            });
+        }
+
     </script>
+
+
+
 </body>
 </html>
 
 
-<!-- &lt;!&ndash;2 assignment&ndash;&gt;
-             <div>
-                 <div>
-                     <img src="assets/assignment_section/assignment.png" title="" alt="assignment photo" width="100">
-                     <h6>assignment 2 </h6>
-                 </div>
-                 <img src="" title="" alt="assignment real photo">
-                 <div>
-                     <div>
-                         <a href="">view</a>
-                         <i></i>
-                     </div>
-                 </div>
-
-             </div>
-
-             &lt;!&ndash;3 assignment&ndash;&gt;
-             <div>
-                 <div>
-                     <img src="assets/assignment_section/assignment.png" title="" alt="assignment photo" width="100">
-                     <h6>assignment 3 </h6>
-                 </div>
-                 <img src="" title="" alt="assignment real photo">
-                 <div>
-                     <div>
-                         <a href="">view</a>
-                         <i></i>
-                     </div>
-                 </div>
-
-             </div>
-
-             &lt;!&ndash;4 assignment&ndash;&gt;
-             <div>
-                 <div>
-                     <img src="assets/assignment_section/assignment.png" title="" alt="assignment photo" width="100">
-                     <h6>assignment 4 </h6>
-                 </div>
-                 <img src="" title="" alt="assignment real photo">
-                 <div>
-                     <div>
-                         <a href="">view</a>
-                         <i></i>
-                     </div>
-                 </div>
-
-             </div>
-
-             &lt;!&ndash;5 assignment&ndash;&gt;
-             <div>
-                 <div>
-                     <img src="assets/assignment_section/assignment.png" title="" alt="assignment photo" width="100">
-                     <h6>assignment 5 </h6>
-                 </div>
-                 <img src="" title="" alt="assignment real photo">
-                 <div>
-                     <div>
-                         <a href="">view</a>
-                         <i></i>
-                     </div>
-                 </div>
-
-             </div>
-
-             &lt;!&ndash;6 assignment&ndash;&gt;
-             <div>
-                 <div>
-                     <img src="assets/assignment_section/assignment.png" title="" alt="assignment photo" width="100">
-                     <h6>assignment 6 </h6>
-                 </div>
-                 <img src="" title="" alt="assignment real photo">
-                 <div>
-                     <div>
-                         <a href="">view</a>
-                         <i></i>
-                     </div>
-                 </div>
-
-             </div>
- -->
-
-<!--<section>
-           &lt;!&ndash;Contact table&ndash;&gt;
-           <table border="1">
-               <tr>
-                   <td>
-                       &lt;!&ndash;table leftside&ndash;&gt;
-                       &lt;!&ndash;contact details&ndash;&gt;
-                       <div>
-                           <div>
-                           <pre>St.peter’s road,</pre>
-                           <pre>Maggona,Kalutara,</pre>
-                           <pre>Sri,Lanka</pre>
-                           </div>
-
-                           <div>
-                               <pre>+94778626300</pre>
-                           </div>
-
-                           <div>
-                               <pre>sherul.dhanushka@gmail.com</pre>
-                           </div>
-
-                           &lt;!&ndash;social image icons&ndash;&gt;
-                           <div>
-                               <a href=""><i class="fa-brands fa-facebook" style=""></i></a>
-                               <a href=""><i class="fa-brands fa-twitter"></i></a>
-                               <a href=""><i class="fa-brands fa-instagram"></i></i></a>
-                               <a href=""><i class="fa-brands fa-linkedin"></i></i></a>
-
-                           </div>
-
-
-                       </div>
-                   </td>
-
-                   <td>
-                       &lt;!&ndash;table rightside&ndash;&gt;
-
-                   &lt;!&ndash;senders details&ndash;&gt;
-                   <h2>any project?</h2>
-
-                   <div>
-                       <div>
-                           <h6>NAME</h6>
-                           <p> &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</p>
-                       </div>
-
-                       <div>
-                           <h6>EMAIL</h6>
-                           <p> &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</p>
-                       </div>
-
-                       <div>
-                           <h6>MESSAGE</h6>
-                           <p> -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</p>
-                           <p> -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</p>
-                           <p> -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</p>
-                       </div>
-                   </div>
-
-                   &lt;!&ndash;submit button&ndash;&gt;
-                   <div>
-                       <button>Submit now</button>
-                   </div>
-                </td>
-
-
-               </tr>
-
-           </table>
-       </section>
--->
-
-<!--Photos-->
-<!--<section class="gallery-box-container">
-    <div>
-        <img src="assets/gallery_section/gallery_1Image.png"  title="" alt="" >
-        <div> </div>&lt;!&ndash;box&ndash;&gt;
-    </div>
-
-    <div>
-        <img src="assets/gallery_section/gallery_2Image.png" title="" alt="" >
-        <div> </div>&lt;!&ndash;box&ndash;&gt;
-    </div>
-
-    <div>
-        <img src="assets/gallery_section/gallery_3Image.png" title="" alt="" >
-        <div> </div>&lt;!&ndash;box&ndash;&gt;
-    </div>
-
-    <div>
-        <div>
-            <p class="italicParagrahSm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus architecto asperiores corporis deleniti dicta dolor fugit, maiores nulla obcaecati porro quibusdam reiciendis voluptatibus! Asperiores eum laudantium nisi nulla quam.</p>
-
-        </div>&lt;!&ndash;box&ndash;&gt;
-    </div>
-
-    <div>
-        <img src="assets/gallery_section/gallery_4Image.png" title="" alt="" height="180px" >
-        <div> </div>&lt;!&ndash;box&ndash;&gt;
-    </div>
-
-    <div>
-        <div> <p class="italicParagrahSm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus architecto asperiores corporis deleniti dicta dolor fugit, maiores nulla obcaecati porro quibusdam reiciendis voluptatibus! Asperiores eum laudantium nisi nulla quam.</p> </div>&lt;!&ndash;box&ndash;&gt;
-    </div>
-
-</section>
-
--->

@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="smooth scrolling with animations 1.2">
+    <list default="true" id="9876a8e2-139f-4ef2-9f92-09e9926f79b6" name="Changes" comment="dynamic role changer">
+      <change afterPath="$PROJECT_DIR$/assignments/Assignment9/assignment9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/Assignment9/jquery-3.7.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/assignment10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/assignment7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/assignment8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/assignment9.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/assignment4.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/assignment4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/assignment5.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/assignment5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/assignment6.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/assignment6.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,47 +45,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.assignment1.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.assignment2.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.assignment3.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.assignment4.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.certificate.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sonali/IdeaProjects/AAD&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.assignment1.html.executor": "Run",
+    "JavaScript Debug.assignment2.html.executor": "Run",
+    "JavaScript Debug.assignment3.html.executor": "Run",
+    "JavaScript Debug.assignment4.html.executor": "Run",
+    "JavaScript Debug.assignment6.html.executor": "Run",
+    "JavaScript Debug.assignment9.html.executor": "Run",
+    "JavaScript Debug.certificate.html.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Sonali/IdeaProjects/sherul_portfolio/assignments/Assignment9",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "build.tools",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assignments\Assignment9" />
       <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assets\Header_section" />
       <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\certificates" />
       <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assignments" />
       <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assets\gallery_section" />
-      <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assets\contact_section" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assignments\Assignment9" />
+      <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assignments" />
       <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assets\hero_section" />
       <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\certificates" />
       <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\Source" />
-      <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assignments" />
-      <recent name="C:\Users\Sonali\IdeaProjects\sherul_portfolio\assets\contact_section" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -161,7 +171,9 @@
       <workItem from="1732140750570" duration="3201000" />
       <workItem from="1732606693981" duration="7732000" />
       <workItem from="1732659547754" duration="3208000" />
-      <workItem from="1733760469883" duration="438000" />
+      <workItem from="1733760469883" duration="2960000" />
+      <workItem from="1733798262497" duration="124000" />
+      <workItem from="1734489670946" duration="15610000" />
     </task>
     <task id="LOCAL-00001" summary="done until hero section">
       <created>1722942224940</created>
@@ -345,14 +357,6 @@
       <option name="project" value="LOCAL" />
       <updated>1725371097028</updated>
     </task>
-    <task id="LOCAL-00052" summary="done till skill section">
-      <option name="closed" value="true" />
-      <created>1727834113232</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1727834113232</updated>
-    </task>
     <task id="LOCAL-00053" summary="done till till contact section">
       <option name="closed" value="true" />
       <created>1728537527834</created>
@@ -529,14 +533,21 @@
       <option name="project" value="LOCAL" />
       <updated>1732142203194</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="dynamic role changer">
+      <option name="closed" value="true" />
+      <created>1733760943566</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1733760943566</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added declations to .heroPic img" />
     <MESSAGE value="added media query @media (max-width:1200px )" />
     <MESSAGE value="added media query @media (max-width:768px)" />
     <MESSAGE value="added media query @media (max-width:500px)" />
@@ -561,7 +572,8 @@
     <MESSAGE value="mobile size responsive 1.3" />
     <MESSAGE value="smooth scrolling with animations" />
     <MESSAGE value="smooth scrolling with animations 1.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="smooth scrolling with animations 1.2" />
+    <MESSAGE value="dynamic role changer" />
+    <option name="LAST_COMMIT_MESSAGE" value="dynamic role changer" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
